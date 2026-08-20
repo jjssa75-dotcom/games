@@ -23,7 +23,7 @@ formação escolhida pode ser usada em qualquer cenário.
 
 ## Usar em outro computador
 
-1. Baixe `releases/Asterra_As_Dezesseis_Fraturas_v_2_2_1.zip` neste repositório.
+1. Abra [`CLOUD_DOWNLOADS.md`](CLOUD_DOWNLOADS.md) e baixe o ZIP completo no Google Drive.
 2. Extraia todo o ZIP para uma pasta comum, sem executar o jogo dentro do arquivo compactado.
 3. Execute `JOGAR.bat`. O jogo abrirá em `http://127.0.0.1:8765`.
 4. Se Python não estiver instalado, instale Python 3.11 ou superior.
