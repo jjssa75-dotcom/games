@@ -1,0 +1,50 @@
+{
+  "title": "Asterra: As Dezesseis Fraturas",
+  "version": "2.1.0",
+  "status": "visual_e_navegacao_validados",
+  "entrypoint": "python -m tactical_rpg",
+  "content": {
+    "character_classes": 240,
+    "troop_classes": 144,
+    "troop_target": "aproximadamente 140",
+    "families": 16,
+    "regions": 16,
+    "stages_per_region": 10,
+    "scenarios": 160,
+    "maps": 160,
+    "map_schema": 3,
+    "campaign_acts": 4,
+    "victory_conditions": 5,
+    "integrated_art_assets": 5
+  },
+  "navigation": {
+    "adjacency": "cardinal",
+    "impassable_symbols": ["#", "B", "^", "X"],
+    "all_walkable_spaces_connected": true,
+    "player_and_ai_share_path_authority": true,
+    "flying_ignores_impassable": false,
+    "server_validated_move_highlights": true
+  },
+  "playability": {
+    "all_character_classes_selectable": true,
+    "all_troop_classes_selectable": true,
+    "enemy_and_npc_ai": true,
+    "move_then_action_activation": true,
+    "weighted_terrain": true,
+    "campaign_interface": true,
+    "codex_interface": true,
+    "offline": true
+  },
+  "validation": {
+    "automated_tests": 51,
+    "test_duration_seconds": 259.591,
+    "scenario_simulations": 160,
+    "all_scenarios_simulated_to_terminal_state": true,
+    "all_maps_connected": true,
+    "critical_invariants_covered": true,
+    "javascript_syntax_checked": true,
+    "visual_interface_checked": true,
+    "desktop_and_mobile_layout_checked": true,
+    "browser_console_errors": 0
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "count": 16,
+  "regions": [
+    {
+      "id": "regiao_humano",
+      "name": "Reinos da Coroa Partida",
+      "family_id": "humano",
+      "capital": "Valedouro",
+      "terrain": "planícies, fortalezas e estradas",
+      "identity": "disciplina, adaptabilidade e comando",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza formações coordenadas e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "landmark": "marco de formações coordenadas"
+      }
+    },
+    {
+      "id": "regiao_elfo",
+      "name": "Bosque de Lythara",
+      "family_id": "elfo",
+      "capital": "Copa de Elarin",
+      "terrain": "florestas antigas e passarelas vivas",
+      "identity": "precisão, floresta e mobilidade",
+      "strategic_resource": "suprimentos",
+      "conflict": "A Fratura desestabiliza vantagem em cobertura natural e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "landmark": "marco de vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "regiao_orc",
+      "name": "Terras Rubras",
+      "family_id": "orc",
+      "capital": "Khar-Dumak",
+      "terrain": "estepes, cânions e arenas",
+      "identity": "ímpeto, moral ofensiva e força",
+      "strategic_resource": "reputação",
+      "conflict": "A Fratura desestabiliza ímpeto após avançar e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "landmark": "marco de ímpeto após avançar"
+      }
+    },
+    {
+      "id": "regiao_goblin",
+      "name": "Liga das Engrenagens",
+      "family_id": "goblin",
+      "capital": "Trinco-Fundo",
+      "terrain": "pântanos, sucata e túneis",
+      "identity": "número, engenho e oportunismo",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza baixo CAP e reposicionamento e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "landmark": "marco de baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "regiao_anao",
+      "name": "Montanhas de Karad",
+      "family_id": "anao",
+      "capital": "Forja-Mãe",
+      "terrain": "montanhas, salões e minas",
+      "identity": "armadura, engenharia e resistência",
+      "strategic_resource": "suprimentos",
+      "conflict": "A Fratura desestabiliza bloqueio e ruptura e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "landmark": "marco de bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "regiao_arcano",
+      "name": "Círculo de Aether",
+      "family_id": "arcano",
+      "capital": "Septúria",
+      "terrain": "ilhas flutuantes e observatórios",
+      "identity": "mana, manipulação e conhecimento",
+      "strategic_resource": "reputação",
+      "conflict": "A Fratura desestabiliza flexibilidade mágica e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "landmark": "marco de flexibilidade mágica"
+      }
+    },
+    {
+      "id": "regiao_luz",
+      "name": "Domínios da Aurora",
+      "family_id": "luz",
+      "capital": "Helianto",
+      "terrain": "vales solares e basílicas",
+      "identity": "proteção, cura e convicção",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza proteção e recuperação e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "landmark": "marco de proteção e recuperação"
+      }
+    },
+    {
+      "id": "regiao_sombrio",
+      "name": "Véu de Nox",
+      "family_id": "sombrio",
+      "capital": "Umbracorte",
+      "terrain": "charnecas, ruínas e névoa",
+      "identity": "furtividade, medo e maldições",
+      "strategic_resource": "suprimentos",
+      "conflict": "A Fratura desestabiliza debilitação e emboscada e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "landmark": "marco de debilitação e emboscada"
+      }
+    },
+    {
+      "id": "regiao_necromante",
+      "name": "Ossuário de Morvath",
+      "family_id": "necromante",
+      "capital": "Necrópole Cinzenta",
+      "terrain": "cemitérios, salinas e criptas",
+      "identity": "controle de mortos e desgaste",
+      "strategic_resource": "reputação",
+      "conflict": "A Fratura desestabiliza invocações temporárias e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "landmark": "marco de invocações temporárias"
+      }
+    },
+    {
+      "id": "regiao_mares",
+      "name": "Arquipélago de Nymar",
+      "family_id": "mares",
+      "capital": "Porto-Coral",
+      "terrain": "ilhas, recifes e canais",
+      "identity": "fluxo, cura e terreno molhado",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza adaptação anfíbia e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "landmark": "marco de adaptação anfíbia"
+      }
+    },
+    {
+      "id": "regiao_chama",
+      "name": "Caldeira de Pyr",
+      "family_id": "chama",
+      "capital": "Cinerária",
+      "terrain": "vulcões, cinza e fundições",
+      "identity": "pressão, queimadura e risco",
+      "strategic_resource": "suprimentos",
+      "conflict": "A Fratura desestabiliza dano crescente por queimadura e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "landmark": "marco de dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "regiao_geada",
+      "name": "Coroa Invernal",
+      "family_id": "geada",
+      "capital": "Skeld",
+      "terrain": "geleiras, fiordes e cavernas",
+      "identity": "controle, defesa e lentidão",
+      "strategic_resource": "reputação",
+      "conflict": "A Fratura desestabiliza controle de movimento e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "landmark": "marco de controle de movimento"
+      }
+    },
+    {
+      "id": "regiao_avariano",
+      "name": "Picos de Avar",
+      "family_id": "avariano",
+      "capital": "Ninho do Zênite",
+      "terrain": "picos, pontes e correntes aéreas",
+      "identity": "voo, ângulo e resgate",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza mobilidade aérea limitada pelo mapa e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "landmark": "marco de mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "regiao_draconico",
+      "name": "Escamas Ancestrais",
+      "family_id": "draconico",
+      "capital": "Drak-Azur",
+      "terrain": "mesetas, vulcões e templos",
+      "identity": "poder, presença e herança elemental",
+      "strategic_resource": "suprimentos",
+      "conflict": "A Fratura desestabiliza alto poder e alto CAP e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "landmark": "marco de alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "regiao_deserto",
+      "name": "Mar de Safira",
+      "family_id": "deserto",
+      "capital": "Qasr-Sahir",
+      "terrain": "dunas, oásis e cânions",
+      "identity": "mobilidade, atrito e sobrevivência",
+      "strategic_resource": "reputação",
+      "conflict": "A Fratura desestabiliza ignora parte do atrito do terreno e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "landmark": "marco de ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "regiao_bestial",
+      "name": "Fronteira Primeva",
+      "family_id": "bestial",
+      "capital": "Pedra-Uivo",
+      "terrain": "selvas, savanas e cavernas",
+      "identity": "instinto, sentidos e transformação",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza sentidos e ataques naturais e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "landmark": "marco de sentidos e ataques naturais"
+      }
+    }
+  ]
+}

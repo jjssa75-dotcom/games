@@ -1,0 +1,10 @@
+[project]
+name = "tactical-rpg-slice"
+version = "2.1.0"
+requires-python = ">=3.11"
+
+[project.scripts]
+asterra = "tactical_rpg.web:main"
+
+[tool.setuptools.packages.find]
+include = ["tactical_rpg*"]

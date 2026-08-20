@@ -1,0 +1,646 @@
+{
+  "schema_version": 3,
+  "title": "Asterra: Os Dezesseis Pesos",
+  "logline": "Quando a infraestrutura mágica que sustenta clima, rotas e colheitas falha, uma coalizão atravessa dezesseis regiões para decidir não apenas como salvar o mundo, mas quem terá o direito de governar o preço da salvação.",
+  "historical_truth": "As Fraturas são órgãos e âncoras do Pacto dos Dezesseis Pesos, criado por anões, arcanos, dracônicos e luminários para redistribuir excedente mágico. O sistema evitou catástrofes, mas deslocou o dano para periferias sem consentimento e teve sua história convertida em mito.",
+  "political_thesis": "Eficiência sem legitimidade produz estabilidade autoritária; autonomia sem responsabilidade comum exporta sofrimento. A rota canônica busca um pacto distribuído, verificável e sempre revogável.",
+  "region_count": 16,
+  "stages_per_region": 10,
+  "scenario_count": 160,
+  "political_marks": [
+    {
+      "id": "legitimidade_coalizao",
+      "name": "Legitimidade da Coalizão",
+      "meaning": "confiança de que a campanha responde a pactos públicos, não só à vitória militar",
+      "low_state": "a Coalizão é vista como novo império",
+      "high_state": "as regiões aceitam decisões difíceis porque custos e limites são verificáveis"
+    },
+    {
+      "id": "autonomia_regional",
+      "name": "Autonomia Regional",
+      "meaning": "capacidade real de cada povo decidir recursos, fronteiras e participação nos Pesos",
+      "low_state": "ordens centrais substituem instituições locais",
+      "high_state": "o poder é distribuído, embora a resposta a crises seja mais lenta"
+    },
+    {
+      "id": "amparo_popular",
+      "name": "Amparo Popular",
+      "meaning": "proteção de civis, refugiados, trabalhadores e grupos sem representação",
+      "low_state": "vitórias táticas acumulam fome, deslocamento e radicalização",
+      "high_state": "a campanha mantém apoio social, com maior custo logístico"
+    },
+    {
+      "id": "poder_convergencia",
+      "name": "Poder da Convergência",
+      "meaning": "capacidade do comando central de controlar rotas, dados, exércitos e âncoras",
+      "low_state": "a Convergência perde coerência e depende de negociação",
+      "high_state": "o Escudo Central torna-se a opção mais fácil e autoritária"
+    },
+    {
+      "id": "estabilidade_fraturas",
+      "name": "Estabilidade das Fraturas",
+      "meaning": "margem técnica antes de falhas em cascata",
+      "low_state": "o mundo ganha liberdade imediata com risco ecológico e mágico",
+      "high_state": "o sistema resiste, mas pode ocultar zonas que pagam a estabilidade"
+    },
+    {
+      "id": "divida_de_guerra",
+      "name": "Dívida de Guerra",
+      "meaning": "carga futura de requisições, contratos, danos e reparações",
+      "low_state": "a reconstrução é financiável e as alianças não dependem de coerção econômica",
+      "high_state": "a paz nasce hipotecada e favorece credores e potências logísticas"
+    }
+  ],
+  "initial_marks": {
+    "legitimidade_coalizao": 0,
+    "autonomia_regional": 0,
+    "amparo_popular": 0,
+    "poder_convergencia": 0,
+    "estabilidade_fraturas": 0,
+    "divida_de_guerra": 0
+  },
+  "acts": [
+    {
+      "number": 1,
+      "title": "Pão, Terra e Engrenagens",
+      "regions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "dramatic_question": "Uma coalizão pode nascer sem repetir as coerções que combate?",
+      "arc": "A disputa começa por grão, água, migração e dívida industrial; a Convergência aparece como resposta eficiente a instituições incapazes de cooperar.",
+      "turn": "O mapa roubado revela que o marechal Edran, chefe logístico da Coalizão, vendeu rotas para salvar Valedouro."
+    },
+    {
+      "number": 2,
+      "title": "O Preço da Verdade",
+      "regions": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "dramatic_question": "Quem tem autoridade para administrar um risco que nenhum povo entende sozinho?",
+      "arc": "Karad, Septúria, Helianto e Nox expõem a origem dos Pesos, o experimento que sincronizou as falhas e os arquivos de sacrifícios.",
+      "turn": "Ilyra parece trair a Coalizão ao entregar a Chave de Septúria, e Seren rompe a Igreja para tornar o arquivo copiável."
+    },
+    {
+      "number": 3,
+      "title": "A Guerra que Alimenta a Paz",
+      "regions": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "dramatic_question": "É possível vencer sem transformar mortos, portos, trabalho e água em combustível?",
+      "arc": "A campanha confronta consentimento dos mortos, soberania insular, economia de guerra e refugiados climáticos.",
+      "turn": "Neris e Yrsa assumem decisões do naufrágio; Kael expõe que a própria Coalizão financiou armas com território alheio."
+    },
+    {
+      "number": 4,
+      "title": "Quem Possui o Futuro",
+      "regions": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "dramatic_question": "O mundo precisa de um escudo central, de liberdade arriscada ou de um pacto lento e distribuído?",
+      "arc": "Céu, dissuasão dracônica, água nômade e soberania ecológica convergem sobre o núcleo vivo da Primeira Fratura.",
+      "turn": "O Pacto dos Dezesseis Pesos nunca foi consentido; ele precisa ser renovado, centralizado ou rompido."
+    }
+  ],
+  "supporting_cast": [
+    {
+      "id": "npc_edran",
+      "name": "Marechal Edran",
+      "role": "chefe logístico da Coalizão e traidor por lealdade provincial",
+      "motivation": "salvar Valedouro da fome mesmo que precise vender rotas e destruir a confiança da Coalizão",
+      "payoff": "sua confissão prova que traição crível nasce de deveres incompatíveis, não de loucura súbita"
+    },
+    {
+      "id": "npc_ione",
+      "name": "Ione dos Nomes Riscados",
+      "role": "arquivista luminar e guardiã da lista de zonas sacrificadas",
+      "motivation": "abrir os arquivos sem entregar refugiados e testemunhas à vingança",
+      "payoff": "transforma exposição da verdade em problema de custódia e proteção, não em catarse simples"
+    },
+    {
+      "id": "npc_suma",
+      "name": "Suma Primeva",
+      "role": "metamorfa perseguida e guardiã da memória da Primeira Fratura",
+      "motivation": "renovar o pacto sob consentimento dos povos e do núcleo vivo",
+      "payoff": "recebe de Rauk o Totem de comando e formula a terceira via do final"
+    }
+  ],
+  "ending_routes": [
+    {
+      "id": "pacto_distribuido",
+      "name": "Pacto Distribuído",
+      "requirements": {
+        "legitimidade_coalizao": "alta",
+        "autonomia_regional": "alta",
+        "estabilidade_fraturas": "positiva"
+      },
+      "outcome": "dezesseis conselhos compartilham comando, auditoria e zonas de risco; a resposta é mais lenta, mas nenhum território pode ser sacrificado em segredo",
+      "canonical": true
+    },
+    {
+      "id": "escudo_central",
+      "name": "Escudo Central",
+      "requirements": {
+        "poder_convergencia": "alto",
+        "estabilidade_fraturas": "muito alta"
+      },
+      "outcome": "o mundo estabiliza rapidamente sob um diretório permanente; oposição e deslocamentos tornam-se custos administrados",
+      "canonical": false
+    },
+    {
+      "id": "ruptura_livre",
+      "name": "Ruptura Livre",
+      "requirements": {
+        "autonomia_regional": "muito alta",
+        "estabilidade_fraturas": "baixa"
+      },
+      "outcome": "os Pesos são rompidos; magia e ecossistemas recuperam autonomia, mas clima e rotas entram em uma era de incerteza",
+      "canonical": false
+    }
+  ],
+  "region_arcs": [
+    {
+      "region_id": "regiao_humano",
+      "title": "Reinos da Coroa Partida",
+      "political_conflict": "as províncias alimentam a guerra, mas a capital decide quem recebe pão e proteção",
+      "betrayal_or_reversal": "O marechal Edran entrega rotas da Coalizão a Cael para impedir que Valedouro seja a próxima cidade sacrificada.",
+      "resolution": "Cael aceita depor a coroa de emergência em troca de um conselho logístico vinculante.",
+      "stages": [
+        "cenario_humano_01",
+        "cenario_humano_02",
+        "cenario_humano_03",
+        "cenario_humano_04",
+        "cenario_humano_05",
+        "cenario_humano_06",
+        "cenario_humano_07",
+        "cenario_humano_08",
+        "cenario_humano_09",
+        "cenario_humano_10"
+      ]
+    },
+    {
+      "region_id": "regiao_elfo",
+      "title": "Bosque de Lythara",
+      "political_conflict": "tratados de emergência sempre viram estradas permanentes e assentamentos armados",
+      "betrayal_or_reversal": "Sylwen autoriza secretamente uma ponte de raízes para refugiados, quebrando o voto do próprio Círculo.",
+      "resolution": "Lythara aceita corredores sazonais governados também pelas comunidades de borda.",
+      "stages": [
+        "cenario_elfo_01",
+        "cenario_elfo_02",
+        "cenario_elfo_03",
+        "cenario_elfo_04",
+        "cenario_elfo_05",
+        "cenario_elfo_06",
+        "cenario_elfo_07",
+        "cenario_elfo_08",
+        "cenario_elfo_09",
+        "cenario_elfo_10"
+      ]
+    },
+    {
+      "region_id": "regiao_orc",
+      "title": "Terras Rubras",
+      "political_conflict": "fronteiras desenhadas por sedentários criminalizam migrações mais antigas que seus reinos",
+      "betrayal_or_reversal": "Gorak entrega um poço ancestral aos sem-clã, violando o juramento que lhe deu comando.",
+      "resolution": "o juramento final cria cidadania de corredor e assentos permanentes para os sem-clã.",
+      "stages": [
+        "cenario_orc_01",
+        "cenario_orc_02",
+        "cenario_orc_03",
+        "cenario_orc_04",
+        "cenario_orc_05",
+        "cenario_orc_06",
+        "cenario_orc_07",
+        "cenario_orc_08",
+        "cenario_orc_09",
+        "cenario_orc_10"
+      ]
+    },
+    {
+      "region_id": "regiao_goblin",
+      "title": "Liga das Engrenagens",
+      "political_conflict": "quem cria a máquina raramente possui a patente; dívida técnica virou trabalho hereditário",
+      "betrayal_or_reversal": "Nix vendeu o protótipo da Bomba Ambulante anos antes e tenta ocultar sua assinatura.",
+      "resolution": "a Liga converte patentes vitais em bens comuns e limita contratos militares.",
+      "stages": [
+        "cenario_goblin_01",
+        "cenario_goblin_02",
+        "cenario_goblin_03",
+        "cenario_goblin_04",
+        "cenario_goblin_05",
+        "cenario_goblin_06",
+        "cenario_goblin_07",
+        "cenario_goblin_08",
+        "cenario_goblin_09",
+        "cenario_goblin_10"
+      ]
+    },
+    {
+      "region_id": "regiao_anao",
+      "title": "Montanhas de Karad",
+      "political_conflict": "o continente depende de Karad, mas empurra para mineiros o custo humano de cada selo",
+      "betrayal_or_reversal": "Vorik revela que os anões construíram os Dezesseis Pesos e que a dívida original foi paga com vidas omitidas.",
+      "resolution": "Karad transforma dívidas hereditárias em responsabilidade continental auditada.",
+      "stages": [
+        "cenario_anao_01",
+        "cenario_anao_02",
+        "cenario_anao_03",
+        "cenario_anao_04",
+        "cenario_anao_05",
+        "cenario_anao_06",
+        "cenario_anao_07",
+        "cenario_anao_08",
+        "cenario_anao_09",
+        "cenario_anao_10"
+      ]
+    },
+    {
+      "region_id": "regiao_arcano",
+      "title": "Círculo de Aether",
+      "political_conflict": "todos exigem previsões perfeitas, mas nenhum governo aceita o custo de errar sob incerteza",
+      "betrayal_or_reversal": "Ilyra entrega temporariamente a Chave de Septúria a Oryn para impedir uma queda imediata e parece desertar.",
+      "resolution": "o Círculo perde soberania sobre dados e passa a responder a um conselho multirregional.",
+      "stages": [
+        "cenario_arcano_01",
+        "cenario_arcano_02",
+        "cenario_arcano_03",
+        "cenario_arcano_04",
+        "cenario_arcano_05",
+        "cenario_arcano_06",
+        "cenario_arcano_07",
+        "cenario_arcano_08",
+        "cenario_arcano_09",
+        "cenario_arcano_10"
+      ]
+    },
+    {
+      "region_id": "regiao_luz",
+      "title": "Domínios da Aurora",
+      "political_conflict": "todos criticam a Igreja até precisarem de abrigo, cura ou um tratado que alguém cumpra",
+      "betrayal_or_reversal": "Seren entrega o relicário a umbrais para copiar o arquivo, violando seu voto e expondo pacientes.",
+      "resolution": "o Sínodo é substituído por um pacto de cuidados civis e religiosos com arquivos abertos.",
+      "stages": [
+        "cenario_luz_01",
+        "cenario_luz_02",
+        "cenario_luz_03",
+        "cenario_luz_04",
+        "cenario_luz_05",
+        "cenario_luz_06",
+        "cenario_luz_07",
+        "cenario_luz_08",
+        "cenario_luz_09",
+        "cenario_luz_10"
+      ]
+    },
+    {
+      "region_id": "regiao_sombrio",
+      "title": "Véu de Nox",
+      "political_conflict": "reinos usam espiões umbrais em paz e os culpam publicamente quando a guerra chega",
+      "betrayal_or_reversal": "Nyx apaga a identidade de Edran para protegê-lo de execução e perde a confiança da Coalizão.",
+      "resolution": "Nox mantém sua rede, mas transfere custódia de provas políticas a um arquivo multilateral.",
+      "stages": [
+        "cenario_sombrio_01",
+        "cenario_sombrio_02",
+        "cenario_sombrio_03",
+        "cenario_sombrio_04",
+        "cenario_sombrio_05",
+        "cenario_sombrio_06",
+        "cenario_sombrio_07",
+        "cenario_sombrio_08",
+        "cenario_sombrio_09",
+        "cenario_sombrio_10"
+      ]
+    },
+    {
+      "region_id": "regiao_necromante",
+      "title": "Ossuário de Morvath",
+      "political_conflict": "outros povos exigem testemunho dos mortos, mas negam a Morvath qualquer voz política",
+      "betrayal_or_reversal": "Mara admite ter despertado sua mãe e permite que o testemunho a condene.",
+      "resolution": "Morvath cria mandatos funerários renováveis e proíbe alistamento automático de mortos de guerra.",
+      "stages": [
+        "cenario_necromante_01",
+        "cenario_necromante_02",
+        "cenario_necromante_03",
+        "cenario_necromante_04",
+        "cenario_necromante_05",
+        "cenario_necromante_06",
+        "cenario_necromante_07",
+        "cenario_necromante_08",
+        "cenario_necromante_09",
+        "cenario_necromante_10"
+      ]
+    },
+    {
+      "region_id": "regiao_mares",
+      "title": "Arquipélago de Nymar",
+      "political_conflict": "potências continentais tratam ilhas como portos, nunca como comunidades soberanas",
+      "betrayal_or_reversal": "Neris admite ter ordenado o naufrágio que abriu o arco de Morvath.",
+      "resolution": "Nymar cria uma frota confederada sob veto das ilhas baixas e anula garantias territoriais.",
+      "stages": [
+        "cenario_mares_01",
+        "cenario_mares_02",
+        "cenario_mares_03",
+        "cenario_mares_04",
+        "cenario_mares_05",
+        "cenario_mares_06",
+        "cenario_mares_07",
+        "cenario_mares_08",
+        "cenario_mares_09",
+        "cenario_mares_10"
+      ]
+    },
+    {
+      "region_id": "regiao_chama",
+      "title": "Caldeira de Pyr",
+      "political_conflict": "o continente condena as forjas enquanto exige armas, ferramentas e aquecimento barato",
+      "betrayal_or_reversal": "Kael esconde que o Coração Refrigerado foi comprado com portos de Nymar oferecidos por Cael.",
+      "resolution": "Pyr converte fornos militares em âncoras e infraestrutura sob controle dos bairros.",
+      "stages": [
+        "cenario_chama_01",
+        "cenario_chama_02",
+        "cenario_chama_03",
+        "cenario_chama_04",
+        "cenario_chama_05",
+        "cenario_chama_06",
+        "cenario_chama_07",
+        "cenario_chama_08",
+        "cenario_chama_09",
+        "cenario_chama_10"
+      ]
+    },
+    {
+      "region_id": "regiao_geada",
+      "title": "Coroa Invernal",
+      "political_conflict": "o sul exige água e passagem enquanto trata refugiados do degelo como problema local",
+      "betrayal_or_reversal": "Yrsa admite ter fechado o fiorde do naufrágio e aceita reparação a Nymar.",
+      "resolution": "Skeld vincula cotas de água a reassentamento e representação dos deslocados.",
+      "stages": [
+        "cenario_geada_01",
+        "cenario_geada_02",
+        "cenario_geada_03",
+        "cenario_geada_04",
+        "cenario_geada_05",
+        "cenario_geada_06",
+        "cenario_geada_07",
+        "cenario_geada_08",
+        "cenario_geada_09",
+        "cenario_geada_10"
+      ]
+    },
+    {
+      "region_id": "regiao_avariano",
+      "title": "Picos de Avar",
+      "political_conflict": "os vales exigem correio neutro, mas recusam pagar pelos riscos e pelas aldeias atingidas por tempestades",
+      "betrayal_or_reversal": "Aren desviou correios para salvar aliados e destruiu a neutralidade que defendia.",
+      "resolution": "as rotas tornam-se bem comum com prioridade definida por risco humano, não riqueza.",
+      "stages": [
+        "cenario_avariano_01",
+        "cenario_avariano_02",
+        "cenario_avariano_03",
+        "cenario_avariano_04",
+        "cenario_avariano_05",
+        "cenario_avariano_06",
+        "cenario_avariano_07",
+        "cenario_avariano_08",
+        "cenario_avariano_09",
+        "cenario_avariano_10"
+      ]
+    },
+    {
+      "region_id": "regiao_draconico",
+      "title": "Escamas Ancestrais",
+      "political_conflict": "outros povos temem o poder dracônico, mas compram sua dissuasão quando conveniente",
+      "betrayal_or_reversal": "Varkesh entrega um núcleo aos guardiões sem linhagem e rompe o privilégio ancestral.",
+      "resolution": "os núcleos passam a custódia multirregional e ovos deixam de definir cidadania.",
+      "stages": [
+        "cenario_draconico_01",
+        "cenario_draconico_02",
+        "cenario_draconico_03",
+        "cenario_draconico_04",
+        "cenario_draconico_05",
+        "cenario_draconico_06",
+        "cenario_draconico_07",
+        "cenario_draconico_08",
+        "cenario_draconico_09",
+        "cenario_draconico_10"
+      ]
+    },
+    {
+      "region_id": "regiao_deserto",
+      "title": "Mar de Safira",
+      "political_conflict": "cidades registram poços; nômades os mantêm e desaparecem dos tratados",
+      "betrayal_or_reversal": "Samira usa um mapa falso para atrair Namar e condena uma caravana aliada à tempestade.",
+      "resolution": "o Pacto reconhece cidadania móvel e gestão conjunta do aquífero com Lythara.",
+      "stages": [
+        "cenario_deserto_01",
+        "cenario_deserto_02",
+        "cenario_deserto_03",
+        "cenario_deserto_04",
+        "cenario_deserto_05",
+        "cenario_deserto_06",
+        "cenario_deserto_07",
+        "cenario_deserto_08",
+        "cenario_deserto_09",
+        "cenario_deserto_10"
+      ]
+    },
+    {
+      "region_id": "regiao_bestial",
+      "title": "Fronteira Primeva",
+      "political_conflict": "exploradores chamam conhecimento bestial de instinto para usá-lo sem reconhecer soberania",
+      "betrayal_or_reversal": "Rauk admite as caçadas e entrega o Totem de comando a Suma antes da batalha final.",
+      "resolution": "a Primeira Fratura torna-se um pacto vivo distribuído; nenhum povo possui o núcleo.",
+      "stages": [
+        "cenario_bestial_01",
+        "cenario_bestial_02",
+        "cenario_bestial_03",
+        "cenario_bestial_04",
+        "cenario_bestial_05",
+        "cenario_bestial_06",
+        "cenario_bestial_07",
+        "cenario_bestial_08",
+        "cenario_bestial_09",
+        "cenario_bestial_10"
+      ]
+    }
+  ],
+  "scenario_ids": [
+    "cenario_humano_01",
+    "cenario_humano_02",
+    "cenario_humano_03",
+    "cenario_humano_04",
+    "cenario_humano_05",
+    "cenario_humano_06",
+    "cenario_humano_07",
+    "cenario_humano_08",
+    "cenario_humano_09",
+    "cenario_humano_10",
+    "cenario_elfo_01",
+    "cenario_elfo_02",
+    "cenario_elfo_03",
+    "cenario_elfo_04",
+    "cenario_elfo_05",
+    "cenario_elfo_06",
+    "cenario_elfo_07",
+    "cenario_elfo_08",
+    "cenario_elfo_09",
+    "cenario_elfo_10",
+    "cenario_orc_01",
+    "cenario_orc_02",
+    "cenario_orc_03",
+    "cenario_orc_04",
+    "cenario_orc_05",
+    "cenario_orc_06",
+    "cenario_orc_07",
+    "cenario_orc_08",
+    "cenario_orc_09",
+    "cenario_orc_10",
+    "cenario_goblin_01",
+    "cenario_goblin_02",
+    "cenario_goblin_03",
+    "cenario_goblin_04",
+    "cenario_goblin_05",
+    "cenario_goblin_06",
+    "cenario_goblin_07",
+    "cenario_goblin_08",
+    "cenario_goblin_09",
+    "cenario_goblin_10",
+    "cenario_anao_01",
+    "cenario_anao_02",
+    "cenario_anao_03",
+    "cenario_anao_04",
+    "cenario_anao_05",
+    "cenario_anao_06",
+    "cenario_anao_07",
+    "cenario_anao_08",
+    "cenario_anao_09",
+    "cenario_anao_10",
+    "cenario_arcano_01",
+    "cenario_arcano_02",
+    "cenario_arcano_03",
+    "cenario_arcano_04",
+    "cenario_arcano_05",
+    "cenario_arcano_06",
+    "cenario_arcano_07",
+    "cenario_arcano_08",
+    "cenario_arcano_09",
+    "cenario_arcano_10",
+    "cenario_luz_01",
+    "cenario_luz_02",
+    "cenario_luz_03",
+    "cenario_luz_04",
+    "cenario_luz_05",
+    "cenario_luz_06",
+    "cenario_luz_07",
+    "cenario_luz_08",
+    "cenario_luz_09",
+    "cenario_luz_10",
+    "cenario_sombrio_01",
+    "cenario_sombrio_02",
+    "cenario_sombrio_03",
+    "cenario_sombrio_04",
+    "cenario_sombrio_05",
+    "cenario_sombrio_06",
+    "cenario_sombrio_07",
+    "cenario_sombrio_08",
+    "cenario_sombrio_09",
+    "cenario_sombrio_10",
+    "cenario_necromante_01",
+    "cenario_necromante_02",
+    "cenario_necromante_03",
+    "cenario_necromante_04",
+    "cenario_necromante_05",
+    "cenario_necromante_06",
+    "cenario_necromante_07",
+    "cenario_necromante_08",
+    "cenario_necromante_09",
+    "cenario_necromante_10",
+    "cenario_mares_01",
+    "cenario_mares_02",
+    "cenario_mares_03",
+    "cenario_mares_04",
+    "cenario_mares_05",
+    "cenario_mares_06",
+    "cenario_mares_07",
+    "cenario_mares_08",
+    "cenario_mares_09",
+    "cenario_mares_10",
+    "cenario_chama_01",
+    "cenario_chama_02",
+    "cenario_chama_03",
+    "cenario_chama_04",
+    "cenario_chama_05",
+    "cenario_chama_06",
+    "cenario_chama_07",
+    "cenario_chama_08",
+    "cenario_chama_09",
+    "cenario_chama_10",
+    "cenario_geada_01",
+    "cenario_geada_02",
+    "cenario_geada_03",
+    "cenario_geada_04",
+    "cenario_geada_05",
+    "cenario_geada_06",
+    "cenario_geada_07",
+    "cenario_geada_08",
+    "cenario_geada_09",
+    "cenario_geada_10",
+    "cenario_avariano_01",
+    "cenario_avariano_02",
+    "cenario_avariano_03",
+    "cenario_avariano_04",
+    "cenario_avariano_05",
+    "cenario_avariano_06",
+    "cenario_avariano_07",
+    "cenario_avariano_08",
+    "cenario_avariano_09",
+    "cenario_avariano_10",
+    "cenario_draconico_01",
+    "cenario_draconico_02",
+    "cenario_draconico_03",
+    "cenario_draconico_04",
+    "cenario_draconico_05",
+    "cenario_draconico_06",
+    "cenario_draconico_07",
+    "cenario_draconico_08",
+    "cenario_draconico_09",
+    "cenario_draconico_10",
+    "cenario_deserto_01",
+    "cenario_deserto_02",
+    "cenario_deserto_03",
+    "cenario_deserto_04",
+    "cenario_deserto_05",
+    "cenario_deserto_06",
+    "cenario_deserto_07",
+    "cenario_deserto_08",
+    "cenario_deserto_09",
+    "cenario_deserto_10",
+    "cenario_bestial_01",
+    "cenario_bestial_02",
+    "cenario_bestial_03",
+    "cenario_bestial_04",
+    "cenario_bestial_05",
+    "cenario_bestial_06",
+    "cenario_bestial_07",
+    "cenario_bestial_08",
+    "cenario_bestial_09",
+    "cenario_bestial_10"
+  ],
+  "catalog_scope": {
+    "character_classes": 240,
+    "troop_classes": 144,
+    "policy": "catálogo completo preservado; narrativa não inventa novas árvores de classe nem exige uma mecânica exclusiva por entrada"
+  },
+  "source_version": 2
+}

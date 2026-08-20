@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "count": 12,
+  "scenarios": [
+    {
+      "id": "cenario_01",
+      "order": 1,
+      "act": 1,
+      "name": "A Ponte Partida",
+      "region_id": "regiao_humano",
+      "map_id": "mapa_01",
+      "premise": "A Coalizão entra em Reinos da Coroa Partida para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_vanguarda",
+      "enemy_commander": "cmd_bastiao",
+      "reward": {
+        "ouro": 30,
+        "suprimentos": 4,
+        "reputacao_family_id": "humano"
+      },
+      "story_beat": "formação da Coalizão"
+    },
+    {
+      "id": "cenario_02",
+      "order": 2,
+      "act": 1,
+      "name": "Ecos no Bosque",
+      "region_id": "regiao_elfo",
+      "map_id": "mapa_02",
+      "premise": "A Coalizão entra em Bosque de Lythara para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_vanguarda",
+      "enemy_commander": "cmd_hibrido",
+      "reward": {
+        "ouro": 35,
+        "suprimentos": 4,
+        "reputacao_family_id": "elfo"
+      },
+      "story_beat": "formação da Coalizão"
+    },
+    {
+      "id": "cenario_03",
+      "order": 3,
+      "act": 1,
+      "name": "O Juramento Rubro",
+      "region_id": "regiao_orc",
+      "map_id": "mapa_03",
+      "premise": "A Coalizão entra em Terras Rubras para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_vanguarda",
+      "enemy_commander": "cmd_bastiao",
+      "reward": {
+        "ouro": 40,
+        "suprimentos": 4,
+        "reputacao_family_id": "orc"
+      },
+      "story_beat": "formação da Coalizão"
+    },
+    {
+      "id": "cenario_04",
+      "order": 4,
+      "act": 1,
+      "name": "Engrenagens na Névoa",
+      "region_id": "regiao_goblin",
+      "map_id": "mapa_04",
+      "premise": "A Coalizão entra em Liga das Engrenagens para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_vanguarda",
+      "enemy_commander": "cmd_hibrido",
+      "reward": {
+        "ouro": 45,
+        "suprimentos": 5,
+        "reputacao_family_id": "goblin"
+      },
+      "story_beat": "formação da Coalizão"
+    },
+    {
+      "id": "cenario_05",
+      "order": 5,
+      "act": 2,
+      "name": "A Forja Silenciada",
+      "region_id": "regiao_anao",
+      "map_id": "mapa_05",
+      "premise": "A Coalizão entra em Montanhas de Karad para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_estrategista",
+      "enemy_commander": "cmd_bastiao",
+      "reward": {
+        "ouro": 50,
+        "suprimentos": 5,
+        "reputacao_family_id": "anao"
+      },
+      "story_beat": "revelação das Fraturas"
+    },
+    {
+      "id": "cenario_06",
+      "order": 6,
+      "act": 2,
+      "name": "A Torre Impossível",
+      "region_id": "regiao_arcano",
+      "map_id": "mapa_06",
+      "premise": "A Coalizão entra em Círculo de Aether para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_estrategista",
+      "enemy_commander": "cmd_hibrido",
+      "reward": {
+        "ouro": 55,
+        "suprimentos": 5,
+        "reputacao_family_id": "arcano"
+      },
+      "story_beat": "revelação das Fraturas"
+    },
+    {
+      "id": "cenario_07",
+      "order": 7,
+      "act": 2,
+      "name": "Aurora Cercada",
+      "region_id": "regiao_luz",
+      "map_id": "mapa_07",
+      "premise": "A Coalizão entra em Domínios da Aurora para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_estrategista",
+      "enemy_commander": "cmd_bastiao",
+      "reward": {
+        "ouro": 60,
+        "suprimentos": 6,
+        "reputacao_family_id": "luz"
+      },
+      "story_beat": "revelação das Fraturas"
+    },
+    {
+      "id": "cenario_08",
+      "order": 8,
+      "act": 2,
+      "name": "Sob o Véu",
+      "region_id": "regiao_sombrio",
+      "map_id": "mapa_08",
+      "premise": "A Coalizão entra em Véu de Nox para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_estrategista",
+      "enemy_commander": "cmd_hibrido",
+      "reward": {
+        "ouro": 65,
+        "suprimentos": 6,
+        "reputacao_family_id": "sombrio"
+      },
+      "story_beat": "revelação das Fraturas"
+    },
+    {
+      "id": "cenario_09",
+      "order": 9,
+      "act": 3,
+      "name": "Ossos que Marcham",
+      "region_id": "regiao_necromante",
+      "map_id": "mapa_09",
+      "premise": "A Coalizão entra em Ossuário de Morvath para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_estrategista",
+      "enemy_commander": "cmd_bastiao",
+      "reward": {
+        "ouro": 70,
+        "suprimentos": 6,
+        "reputacao_family_id": "necromante"
+      },
+      "story_beat": "cerco à Convergência"
+    },
+    {
+      "id": "cenario_10",
+      "order": 10,
+      "act": 3,
+      "name": "Maré de Cinzas",
+      "region_id": "regiao_mares",
+      "map_id": "mapa_10",
+      "premise": "A Coalizão entra em Arquipélago de Nymar para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_estrategista",
+      "enemy_commander": "cmd_hibrido",
+      "reward": {
+        "ouro": 75,
+        "suprimentos": 7,
+        "reputacao_family_id": "mares"
+      },
+      "story_beat": "cerco à Convergência"
+    },
+    {
+      "id": "cenario_11",
+      "order": 11,
+      "act": 3,
+      "name": "Coração da Caldeira",
+      "region_id": "regiao_chama",
+      "map_id": "mapa_11",
+      "premise": "A Coalizão entra em Caldeira de Pyr para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_estrategista",
+      "enemy_commander": "cmd_bastiao",
+      "reward": {
+        "ouro": 80,
+        "suprimentos": 7,
+        "reputacao_family_id": "chama"
+      },
+      "story_beat": "cerco à Convergência"
+    },
+    {
+      "id": "cenario_12",
+      "order": 12,
+      "act": 3,
+      "name": "O Último Inverno",
+      "region_id": "regiao_geada",
+      "map_id": "mapa_12",
+      "premise": "A Coalizão entra em Coroa Invernal para impedir que a Convergência domine a Fratura local.",
+      "objective": "derrotar o comandante inimigo",
+      "optional_objective": "controlar o marco O ao final de uma rodada",
+      "player_commander": "cmd_estrategista",
+      "enemy_commander": "cmd_hibrido",
+      "reward": {
+        "ouro": 85,
+        "suprimentos": 7,
+        "reputacao_family_id": "geada"
+      },
+      "story_beat": "cerco à Convergência"
+    }
+  ]
+}

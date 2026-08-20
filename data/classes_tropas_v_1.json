@@ -1,0 +1,4183 @@
+{
+  "schema_version": 1,
+  "count": 144,
+  "target": "aproximadamente 140",
+  "troops": [
+    {
+      "id": "tropa_humano_recrutas_da_coroa",
+      "name": "Recrutas da Coroa",
+      "family_id": "humano",
+      "tier": 1,
+      "role": "suporte",
+      "stats": {
+        "hp": 12,
+        "attack": 4,
+        "defense": 5,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "formações coordenadas aplicado à função de suporte.",
+      "tactical_use": "Cumpre suporte quando a formação explora disciplina, adaptabilidade e comando.",
+      "weakness": "foco inimigo",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "equipment_language": "formações coordenadas"
+      }
+    },
+    {
+      "id": "tropa_humano_espadachins_da_linha",
+      "name": "Espadachins da Linha",
+      "family_id": "humano",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "formações coordenadas aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora disciplina, adaptabilidade e comando.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "equipment_language": "formações coordenadas"
+      }
+    },
+    {
+      "id": "tropa_humano_lanceiros_de_fronteira",
+      "name": "Lanceiros de Fronteira",
+      "family_id": "humano",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "formações coordenadas aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora disciplina, adaptabilidade e comando.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "equipment_language": "formações coordenadas"
+      }
+    },
+    {
+      "id": "tropa_humano_arqueiros_de_campanha",
+      "name": "Arqueiros de Campanha",
+      "family_id": "humano",
+      "tier": 2,
+      "role": "distancia",
+      "stats": {
+        "hp": 14,
+        "attack": 8,
+        "defense": 5,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "formações coordenadas aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora disciplina, adaptabilidade e comando.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "equipment_language": "formações coordenadas"
+      }
+    },
+    {
+      "id": "tropa_humano_besteiros_de_cerco",
+      "name": "Besteiros de Cerco",
+      "family_id": "humano",
+      "tier": 2,
+      "role": "distancia",
+      "stats": {
+        "hp": 14,
+        "attack": 8,
+        "defense": 5,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "formações coordenadas aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora disciplina, adaptabilidade e comando.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "equipment_language": "formações coordenadas"
+      }
+    },
+    {
+      "id": "tropa_humano_cavalaria_leve",
+      "name": "Cavalaria Leve",
+      "family_id": "humano",
+      "tier": 2,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 15,
+        "attack": 8,
+        "defense": 5,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "formações coordenadas aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora disciplina, adaptabilidade e comando.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "equipment_language": "formações coordenadas"
+      }
+    },
+    {
+      "id": "tropa_humano_guarda_real",
+      "name": "Guarda Real",
+      "family_id": "humano",
+      "tier": 3,
+      "role": "defesa",
+      "stats": {
+        "hp": 26,
+        "attack": 9,
+        "defense": 12,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 38,
+      "mobilization_supply": 3,
+      "signature": "formações coordenadas aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora disciplina, adaptabilidade e comando.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "equipment_language": "formações coordenadas"
+      }
+    },
+    {
+      "id": "tropa_humano_cavaleiros_pesados",
+      "name": "Cavaleiros Pesados",
+      "family_id": "humano",
+      "tier": 3,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 19,
+        "attack": 10,
+        "defense": 7,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 3,
+      "signature": "formações coordenadas aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora disciplina, adaptabilidade e comando.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "equipment_language": "formações coordenadas"
+      }
+    },
+    {
+      "id": "tropa_humano_veteranos_do_estandarte",
+      "name": "Veteranos do Estandarte",
+      "family_id": "humano",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 3,
+      "signature": "formações coordenadas aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora disciplina, adaptabilidade e comando.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "equipment_language": "formações coordenadas"
+      }
+    },
+    {
+      "id": "tropa_elfo_batedores_do_bosque",
+      "name": "Batedores do Bosque",
+      "family_id": "elfo",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 20,
+      "mobilization_supply": 1,
+      "signature": "vantagem em cobertura natural aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora precisão, floresta e mobilidade.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "equipment_language": "vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "tropa_elfo_arqueiros_verdes",
+      "name": "Arqueiros Verdes",
+      "family_id": "elfo",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 20,
+      "mobilization_supply": 1,
+      "signature": "vantagem em cobertura natural aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora precisão, floresta e mobilidade.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "equipment_language": "vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "tropa_elfo_lanceiros_das_folhas",
+      "name": "Lanceiros das Folhas",
+      "family_id": "elfo",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 20,
+      "mobilization_supply": 1,
+      "signature": "vantagem em cobertura natural aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora precisão, floresta e mobilidade.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "equipment_language": "vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "tropa_elfo_dancarinos_silvestres",
+      "name": "Dançarinos Silvestres",
+      "family_id": "elfo",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 31,
+      "mobilization_supply": 2,
+      "signature": "vantagem em cobertura natural aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora precisão, floresta e mobilidade.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "equipment_language": "vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "tropa_elfo_guardioes_de_raiz",
+      "name": "Guardiões de Raiz",
+      "family_id": "elfo",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 31,
+      "mobilization_supply": 2,
+      "signature": "vantagem em cobertura natural aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora precisão, floresta e mobilidade.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "equipment_language": "vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "tropa_elfo_montadores_de_cervo",
+      "name": "Montadores de Cervo",
+      "family_id": "elfo",
+      "tier": 2,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 15,
+        "attack": 8,
+        "defense": 5,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 31,
+      "mobilization_supply": 2,
+      "signature": "vantagem em cobertura natural aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora precisão, floresta e mobilidade.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "equipment_language": "vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "tropa_elfo_olhos_lunares",
+      "name": "Olhos Lunares",
+      "family_id": "elfo",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 42,
+      "mobilization_supply": 3,
+      "signature": "vantagem em cobertura natural aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora precisão, floresta e mobilidade.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "equipment_language": "vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "tropa_elfo_circulo_druidico",
+      "name": "Círculo Druídico",
+      "family_id": "elfo",
+      "tier": 3,
+      "role": "especialista",
+      "stats": {
+        "hp": 20,
+        "attack": 11,
+        "defense": 8,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 42,
+      "mobilization_supply": 3,
+      "signature": "vantagem em cobertura natural aplicado à função de especialista.",
+      "tactical_use": "Cumpre especialista quando a formação explora precisão, floresta e mobilidade.",
+      "weakness": "condição desfavorável",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "equipment_language": "vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "tropa_elfo_sentinelas_ancias",
+      "name": "Sentinelas Anciãs",
+      "family_id": "elfo",
+      "tier": 3,
+      "role": "defesa",
+      "stats": {
+        "hp": 26,
+        "attack": 9,
+        "defense": 12,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 46,
+      "mobilization_supply": 3,
+      "signature": "vantagem em cobertura natural aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora precisão, floresta e mobilidade.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "equipment_language": "vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "tropa_orc_guerreiros_jovens",
+      "name": "Guerreiros Jovens",
+      "family_id": "orc",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 15,
+      "mobilization_supply": 1,
+      "signature": "ímpeto após avançar aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora ímpeto, moral ofensiva e força.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "equipment_language": "ímpeto após avançar"
+      }
+    },
+    {
+      "id": "tropa_orc_lanceiros_do_cla",
+      "name": "Lanceiros do Clã",
+      "family_id": "orc",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 15,
+      "mobilization_supply": 1,
+      "signature": "ímpeto após avançar aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora ímpeto, moral ofensiva e força.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "equipment_language": "ímpeto após avançar"
+      }
+    },
+    {
+      "id": "tropa_orc_cacadores_orcs",
+      "name": "Caçadores Orcs",
+      "family_id": "orc",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 15,
+      "mobilization_supply": 1,
+      "signature": "ímpeto após avançar aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora ímpeto, moral ofensiva e força.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "equipment_language": "ímpeto após avançar"
+      }
+    },
+    {
+      "id": "tropa_orc_berserkers",
+      "name": "Berserkers",
+      "family_id": "orc",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 23,
+      "mobilization_supply": 2,
+      "signature": "ímpeto após avançar aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora ímpeto, moral ofensiva e força.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "equipment_language": "ímpeto após avançar"
+      }
+    },
+    {
+      "id": "tropa_orc_quebra_escudos",
+      "name": "Quebra-Escudos",
+      "family_id": "orc",
+      "tier": 2,
+      "role": "ruptura",
+      "stats": {
+        "hp": 19,
+        "attack": 10,
+        "defense": 6,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "ímpeto após avançar aplicado à função de ruptura.",
+      "tactical_use": "Cumpre ruptura quando a formação explora ímpeto, moral ofensiva e força.",
+      "weakness": "controle",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "equipment_language": "ímpeto após avançar"
+      }
+    },
+    {
+      "id": "tropa_orc_montadores_de_javali",
+      "name": "Montadores de Javali",
+      "family_id": "orc",
+      "tier": 2,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 15,
+        "attack": 8,
+        "defense": 5,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 23,
+      "mobilization_supply": 2,
+      "signature": "ímpeto após avançar aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora ímpeto, moral ofensiva e força.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "equipment_language": "ímpeto após avançar"
+      }
+    },
+    {
+      "id": "tropa_orc_guardas_do_khan",
+      "name": "Guardas do Khan",
+      "family_id": "orc",
+      "tier": 3,
+      "role": "defesa",
+      "stats": {
+        "hp": 26,
+        "attack": 9,
+        "defense": 12,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 34,
+      "mobilization_supply": 3,
+      "signature": "ímpeto após avançar aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora ímpeto, moral ofensiva e força.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "equipment_language": "ímpeto após avançar"
+      }
+    },
+    {
+      "id": "tropa_orc_tambores_de_guerra",
+      "name": "Tambores de Guerra",
+      "family_id": "orc",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 32,
+      "mobilization_supply": 3,
+      "signature": "ímpeto após avançar aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora ímpeto, moral ofensiva e força.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "equipment_language": "ímpeto após avançar"
+      }
+    },
+    {
+      "id": "tropa_orc_campeoes_da_horda",
+      "name": "Campeões da Horda",
+      "family_id": "orc",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 32,
+      "mobilization_supply": 3,
+      "signature": "ímpeto após avançar aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora ímpeto, moral ofensiva e força.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "equipment_language": "ímpeto após avançar"
+      }
+    },
+    {
+      "id": "tropa_goblin_lanceiros_goblins",
+      "name": "Lanceiros Goblins",
+      "family_id": "goblin",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 12,
+      "mobilization_supply": 1,
+      "signature": "baixo CAP e reposicionamento aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora número, engenho e oportunismo.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "equipment_language": "baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "tropa_goblin_atiradores_de_funda",
+      "name": "Atiradores de Funda",
+      "family_id": "goblin",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 12,
+      "mobilization_supply": 1,
+      "signature": "baixo CAP e reposicionamento aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora número, engenho e oportunismo.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "equipment_language": "baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "tropa_goblin_catadores",
+      "name": "Catadores",
+      "family_id": "goblin",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 12,
+      "mobilization_supply": 1,
+      "signature": "baixo CAP e reposicionamento aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora número, engenho e oportunismo.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "equipment_language": "baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "tropa_goblin_cavaleiros_de_lobo",
+      "name": "Cavaleiros de Lobo",
+      "family_id": "goblin",
+      "tier": 2,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 15,
+        "attack": 8,
+        "defense": 5,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 18,
+      "mobilization_supply": 2,
+      "signature": "baixo CAP e reposicionamento aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora número, engenho e oportunismo.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "equipment_language": "baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "tropa_goblin_bombardeiros_de_sucata",
+      "name": "Bombardeiros de Sucata",
+      "family_id": "goblin",
+      "tier": 2,
+      "role": "ruptura",
+      "stats": {
+        "hp": 19,
+        "attack": 10,
+        "defense": 6,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 20,
+      "mobilization_supply": 2,
+      "signature": "baixo CAP e reposicionamento aplicado à função de ruptura.",
+      "tactical_use": "Cumpre ruptura quando a formação explora número, engenho e oportunismo.",
+      "weakness": "controle",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "equipment_language": "baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "tropa_goblin_esfaqueadores",
+      "name": "Esfaqueadores",
+      "family_id": "goblin",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 18,
+      "mobilization_supply": 2,
+      "signature": "baixo CAP e reposicionamento aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora número, engenho e oportunismo.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "equipment_language": "baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "tropa_goblin_guardas_do_grao_chefe",
+      "name": "Guardas do Grão-Chefe",
+      "family_id": "goblin",
+      "tier": 3,
+      "role": "defesa",
+      "stats": {
+        "hp": 26,
+        "attack": 9,
+        "defense": 12,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 27,
+      "mobilization_supply": 3,
+      "signature": "baixo CAP e reposicionamento aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora número, engenho e oportunismo.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "equipment_language": "baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "tropa_goblin_artilheiros_de_engrenagem",
+      "name": "Artilheiros de Engrenagem",
+      "family_id": "goblin",
+      "tier": 3,
+      "role": "ruptura",
+      "stats": {
+        "hp": 23,
+        "attack": 12,
+        "defense": 8,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 27,
+      "mobilization_supply": 3,
+      "signature": "baixo CAP e reposicionamento aplicado à função de ruptura.",
+      "tactical_use": "Cumpre ruptura quando a formação explora número, engenho e oportunismo.",
+      "weakness": "controle",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "equipment_language": "baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "tropa_goblin_matilha_escarlate",
+      "name": "Matilha Escarlate",
+      "family_id": "goblin",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 24,
+      "mobilization_supply": 3,
+      "signature": "baixo CAP e reposicionamento aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora número, engenho e oportunismo.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "equipment_language": "baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "tropa_anao_guardas_da_mina",
+      "name": "Guardas da Mina",
+      "family_id": "anao",
+      "tier": 1,
+      "role": "defesa",
+      "stats": {
+        "hp": 18,
+        "attack": 5,
+        "defense": 8,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "bloqueio e ruptura aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora armadura, engenharia e resistência.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "equipment_language": "bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "tropa_anao_besteiros_anoes",
+      "name": "Besteiros Anões",
+      "family_id": "anao",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 22,
+      "mobilization_supply": 2,
+      "signature": "bloqueio e ruptura aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora armadura, engenharia e resistência.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "equipment_language": "bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "tropa_anao_escudeiros_de_ferro",
+      "name": "Escudeiros de Ferro",
+      "family_id": "anao",
+      "tier": 1,
+      "role": "defesa",
+      "stats": {
+        "hp": 18,
+        "attack": 5,
+        "defense": 8,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "bloqueio e ruptura aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora armadura, engenharia e resistência.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "equipment_language": "bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "tropa_anao_fuzileiros_runicos",
+      "name": "Fuzileiros Rúnicos",
+      "family_id": "anao",
+      "tier": 2,
+      "role": "distancia",
+      "stats": {
+        "hp": 14,
+        "attack": 8,
+        "defense": 5,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 34,
+      "mobilization_supply": 3,
+      "signature": "bloqueio e ruptura aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora armadura, engenharia e resistência.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "equipment_language": "bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "tropa_anao_martelos_de_cerco",
+      "name": "Martelos de Cerco",
+      "family_id": "anao",
+      "tier": 2,
+      "role": "ruptura",
+      "stats": {
+        "hp": 19,
+        "attack": 10,
+        "defense": 6,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 38,
+      "mobilization_supply": 3,
+      "signature": "bloqueio e ruptura aplicado à função de ruptura.",
+      "tactical_use": "Cumpre ruptura quando a formação explora armadura, engenharia e resistência.",
+      "weakness": "controle",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "equipment_language": "bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "tropa_anao_sapadores",
+      "name": "Sapadores",
+      "family_id": "anao",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 34,
+      "mobilization_supply": 3,
+      "signature": "bloqueio e ruptura aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora armadura, engenharia e resistência.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "equipment_language": "bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "tropa_anao_guardas_de_ferro",
+      "name": "Guardas de Ferro",
+      "family_id": "anao",
+      "tier": 3,
+      "role": "defesa",
+      "stats": {
+        "hp": 26,
+        "attack": 9,
+        "defense": 12,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 49,
+      "mobilization_supply": 4,
+      "signature": "bloqueio e ruptura aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora armadura, engenharia e resistência.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "equipment_language": "bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "tropa_anao_canhoes_de_salao",
+      "name": "Canhões de Salão",
+      "family_id": "anao",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 46,
+      "mobilization_supply": 4,
+      "signature": "bloqueio e ruptura aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora armadura, engenharia e resistência.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "equipment_language": "bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "tropa_anao_bastioes_runicos",
+      "name": "Bastiões Rúnicos",
+      "family_id": "anao",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 46,
+      "mobilization_supply": 4,
+      "signature": "bloqueio e ruptura aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora armadura, engenharia e resistência.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "equipment_language": "bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "tropa_arcano_ajudantes_arcanos",
+      "name": "Ajudantes Arcanos",
+      "family_id": "arcano",
+      "tier": 1,
+      "role": "suporte",
+      "stats": {
+        "hp": 12,
+        "attack": 4,
+        "defense": 5,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 23,
+      "mobilization_supply": 1,
+      "signature": "flexibilidade mágica aplicado à função de suporte.",
+      "tactical_use": "Cumpre suporte quando a formação explora mana, manipulação e conhecimento.",
+      "weakness": "foco inimigo",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "equipment_language": "flexibilidade mágica"
+      }
+    },
+    {
+      "id": "tropa_arcano_sentinelas_de_mana",
+      "name": "Sentinelas de Mana",
+      "family_id": "arcano",
+      "tier": 1,
+      "role": "defesa",
+      "stats": {
+        "hp": 18,
+        "attack": 5,
+        "defense": 8,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 27,
+      "mobilization_supply": 1,
+      "signature": "flexibilidade mágica aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora mana, manipulação e conhecimento.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "equipment_language": "flexibilidade mágica"
+      }
+    },
+    {
+      "id": "tropa_arcano_atiradores_de_aether",
+      "name": "Atiradores de Aether",
+      "family_id": "arcano",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 23,
+      "mobilization_supply": 1,
+      "signature": "flexibilidade mágica aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora mana, manipulação e conhecimento.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "equipment_language": "flexibilidade mágica"
+      }
+    },
+    {
+      "id": "tropa_arcano_golens_menores",
+      "name": "Golens Menores",
+      "family_id": "arcano",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 2,
+      "signature": "flexibilidade mágica aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora mana, manipulação e conhecimento.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "equipment_language": "flexibilidade mágica"
+      }
+    },
+    {
+      "id": "tropa_arcano_evocadores_de_campo",
+      "name": "Evocadores de Campo",
+      "family_id": "arcano",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 2,
+      "signature": "flexibilidade mágica aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora mana, manipulação e conhecimento.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "equipment_language": "flexibilidade mágica"
+      }
+    },
+    {
+      "id": "tropa_arcano_ilusionistas",
+      "name": "Ilusionistas",
+      "family_id": "arcano",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 2,
+      "signature": "flexibilidade mágica aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora mana, manipulação e conhecimento.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "equipment_language": "flexibilidade mágica"
+      }
+    },
+    {
+      "id": "tropa_arcano_golens_de_guerra",
+      "name": "Golens de Guerra",
+      "family_id": "arcano",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 47,
+      "mobilization_supply": 3,
+      "signature": "flexibilidade mágica aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora mana, manipulação e conhecimento.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "equipment_language": "flexibilidade mágica"
+      }
+    },
+    {
+      "id": "tropa_arcano_baterias_arcanas",
+      "name": "Baterias Arcanas",
+      "family_id": "arcano",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 47,
+      "mobilization_supply": 3,
+      "signature": "flexibilidade mágica aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora mana, manipulação e conhecimento.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "equipment_language": "flexibilidade mágica"
+      }
+    },
+    {
+      "id": "tropa_arcano_circulo_de_arquimagos",
+      "name": "Círculo de Arquimagos",
+      "family_id": "arcano",
+      "tier": 3,
+      "role": "especialista",
+      "stats": {
+        "hp": 20,
+        "attack": 11,
+        "defense": 8,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 47,
+      "mobilization_supply": 3,
+      "signature": "flexibilidade mágica aplicado à função de especialista.",
+      "tactical_use": "Cumpre especialista quando a formação explora mana, manipulação e conhecimento.",
+      "weakness": "condição desfavorável",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "equipment_language": "flexibilidade mágica"
+      }
+    },
+    {
+      "id": "tropa_luz_novatos_da_aurora",
+      "name": "Novatos da Aurora",
+      "family_id": "luz",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 20,
+      "mobilization_supply": 1,
+      "signature": "proteção e recuperação aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora proteção, cura e convicção.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "equipment_language": "proteção e recuperação"
+      }
+    },
+    {
+      "id": "tropa_luz_escudeiros_solares",
+      "name": "Escudeiros Solares",
+      "family_id": "luz",
+      "tier": 1,
+      "role": "defesa",
+      "stats": {
+        "hp": 18,
+        "attack": 5,
+        "defense": 8,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 23,
+      "mobilization_supply": 1,
+      "signature": "proteção e recuperação aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora proteção, cura e convicção.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "equipment_language": "proteção e recuperação"
+      }
+    },
+    {
+      "id": "tropa_luz_acolitos_curadores",
+      "name": "Acólitos Curadores",
+      "family_id": "luz",
+      "tier": 1,
+      "role": "suporte",
+      "stats": {
+        "hp": 12,
+        "attack": 4,
+        "defense": 5,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 20,
+      "mobilization_supply": 1,
+      "signature": "proteção e recuperação aplicado à função de suporte.",
+      "tactical_use": "Cumpre suporte quando a formação explora proteção, cura e convicção.",
+      "weakness": "foco inimigo",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "equipment_language": "proteção e recuperação"
+      }
+    },
+    {
+      "id": "tropa_luz_templarios",
+      "name": "Templários",
+      "family_id": "luz",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 30,
+      "mobilization_supply": 2,
+      "signature": "proteção e recuperação aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora proteção, cura e convicção.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "equipment_language": "proteção e recuperação"
+      }
+    },
+    {
+      "id": "tropa_luz_arqueiros_radiantes",
+      "name": "Arqueiros Radiantes",
+      "family_id": "luz",
+      "tier": 2,
+      "role": "distancia",
+      "stats": {
+        "hp": 14,
+        "attack": 8,
+        "defense": 5,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 30,
+      "mobilization_supply": 2,
+      "signature": "proteção e recuperação aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora proteção, cura e convicção.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "equipment_language": "proteção e recuperação"
+      }
+    },
+    {
+      "id": "tropa_luz_porta_estandartes",
+      "name": "Porta-Estandartes",
+      "family_id": "luz",
+      "tier": 2,
+      "role": "suporte",
+      "stats": {
+        "hp": 16,
+        "attack": 6,
+        "defense": 7,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 30,
+      "mobilization_supply": 2,
+      "signature": "proteção e recuperação aplicado à função de suporte.",
+      "tactical_use": "Cumpre suporte quando a formação explora proteção, cura e convicção.",
+      "weakness": "foco inimigo",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "equipment_language": "proteção e recuperação"
+      }
+    },
+    {
+      "id": "tropa_luz_guardas_do_alvorecer",
+      "name": "Guardas do Alvorecer",
+      "family_id": "luz",
+      "tier": 3,
+      "role": "defesa",
+      "stats": {
+        "hp": 26,
+        "attack": 9,
+        "defense": 12,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 44,
+      "mobilization_supply": 3,
+      "signature": "proteção e recuperação aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora proteção, cura e convicção.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "equipment_language": "proteção e recuperação"
+      }
+    },
+    {
+      "id": "tropa_luz_coro_de_batalha",
+      "name": "Coro de Batalha",
+      "family_id": "luz",
+      "tier": 3,
+      "role": "suporte",
+      "stats": {
+        "hp": 20,
+        "attack": 8,
+        "defense": 9,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 40,
+      "mobilization_supply": 3,
+      "signature": "proteção e recuperação aplicado à função de suporte.",
+      "tactical_use": "Cumpre suporte quando a formação explora proteção, cura e convicção.",
+      "weakness": "foco inimigo",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "equipment_language": "proteção e recuperação"
+      }
+    },
+    {
+      "id": "tropa_luz_juizes_solares",
+      "name": "Juízes Solares",
+      "family_id": "luz",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 40,
+      "mobilization_supply": 3,
+      "signature": "proteção e recuperação aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora proteção, cura e convicção.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "equipment_language": "proteção e recuperação"
+      }
+    },
+    {
+      "id": "tropa_sombrio_batedores_do_veu",
+      "name": "Batedores do Véu",
+      "family_id": "sombrio",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 18,
+      "mobilization_supply": 1,
+      "signature": "debilitação e emboscada aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora furtividade, medo e maldições.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "equipment_language": "debilitação e emboscada"
+      }
+    },
+    {
+      "id": "tropa_sombrio_laminas_sombrias",
+      "name": "Lâminas Sombrias",
+      "family_id": "sombrio",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 18,
+      "mobilization_supply": 1,
+      "signature": "debilitação e emboscada aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora furtividade, medo e maldições.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "equipment_language": "debilitação e emboscada"
+      }
+    },
+    {
+      "id": "tropa_sombrio_atiradores_da_nevoa",
+      "name": "Atiradores da Névoa",
+      "family_id": "sombrio",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 18,
+      "mobilization_supply": 1,
+      "signature": "debilitação e emboscada aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora furtividade, medo e maldições.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "equipment_language": "debilitação e emboscada"
+      }
+    },
+    {
+      "id": "tropa_sombrio_assassinos_umbrais",
+      "name": "Assassinos Umbrais",
+      "family_id": "sombrio",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 27,
+      "mobilization_supply": 2,
+      "signature": "debilitação e emboscada aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora furtividade, medo e maldições.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "equipment_language": "debilitação e emboscada"
+      }
+    },
+    {
+      "id": "tropa_sombrio_bruxos_de_campo",
+      "name": "Bruxos de Campo",
+      "family_id": "sombrio",
+      "tier": 2,
+      "role": "especialista",
+      "stats": {
+        "hp": 16,
+        "attack": 9,
+        "defense": 6,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 27,
+      "mobilization_supply": 2,
+      "signature": "debilitação e emboscada aplicado à função de especialista.",
+      "tactical_use": "Cumpre especialista quando a formação explora furtividade, medo e maldições.",
+      "weakness": "condição desfavorável",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "equipment_language": "debilitação e emboscada"
+      }
+    },
+    {
+      "id": "tropa_sombrio_cacadores_do_medo",
+      "name": "Caçadores do Medo",
+      "family_id": "sombrio",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 27,
+      "mobilization_supply": 2,
+      "signature": "debilitação e emboscada aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora furtividade, medo e maldições.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "equipment_language": "debilitação e emboscada"
+      }
+    },
+    {
+      "id": "tropa_sombrio_carrascos_noturnos",
+      "name": "Carrascos Noturnos",
+      "family_id": "sombrio",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 37,
+      "mobilization_supply": 3,
+      "signature": "debilitação e emboscada aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora furtividade, medo e maldições.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "equipment_language": "debilitação e emboscada"
+      }
+    },
+    {
+      "id": "tropa_sombrio_circulo_de_maldicoes",
+      "name": "Círculo de Maldições",
+      "family_id": "sombrio",
+      "tier": 3,
+      "role": "especialista",
+      "stats": {
+        "hp": 20,
+        "attack": 11,
+        "defense": 8,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 37,
+      "mobilization_supply": 3,
+      "signature": "debilitação e emboscada aplicado à função de especialista.",
+      "tactical_use": "Cumpre especialista quando a formação explora furtividade, medo e maldições.",
+      "weakness": "condição desfavorável",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "equipment_language": "debilitação e emboscada"
+      }
+    },
+    {
+      "id": "tropa_sombrio_sombras_vivas",
+      "name": "Sombras Vivas",
+      "family_id": "sombrio",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 37,
+      "mobilization_supply": 3,
+      "signature": "debilitação e emboscada aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora furtividade, medo e maldições.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "equipment_language": "debilitação e emboscada"
+      }
+    },
+    {
+      "id": "tropa_necromante_cultistas_do_ossuario",
+      "name": "Cultistas do Ossuário",
+      "family_id": "necromante",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "invocações temporárias aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora controle de mortos e desgaste.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "equipment_language": "invocações temporárias"
+      }
+    },
+    {
+      "id": "tropa_necromante_esqueletos_temporarios",
+      "name": "Esqueletos Temporários",
+      "family_id": "necromante",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "invocações temporárias aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora controle de mortos e desgaste.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "equipment_language": "invocações temporárias"
+      }
+    },
+    {
+      "id": "tropa_necromante_arqueiros_osseos",
+      "name": "Arqueiros Ósseos",
+      "family_id": "necromante",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "invocações temporárias aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora controle de mortos e desgaste.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "equipment_language": "invocações temporárias"
+      }
+    },
+    {
+      "id": "tropa_necromante_guardas_cadavericos",
+      "name": "Guardas Cadavéricos",
+      "family_id": "necromante",
+      "tier": 2,
+      "role": "defesa",
+      "stats": {
+        "hp": 22,
+        "attack": 7,
+        "defense": 10,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 29,
+      "mobilization_supply": 2,
+      "signature": "invocações temporárias aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora controle de mortos e desgaste.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "equipment_language": "invocações temporárias"
+      }
+    },
+    {
+      "id": "tropa_necromante_cavaleiros_esqueleticos",
+      "name": "Cavaleiros Esqueléticos",
+      "family_id": "necromante",
+      "tier": 2,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 15,
+        "attack": 8,
+        "defense": 5,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "invocações temporárias aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora controle de mortos e desgaste.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "equipment_language": "invocações temporárias"
+      }
+    },
+    {
+      "id": "tropa_necromante_aparicoes",
+      "name": "Aparições",
+      "family_id": "necromante",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "invocações temporárias aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora controle de mortos e desgaste.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "equipment_language": "invocações temporárias"
+      }
+    },
+    {
+      "id": "tropa_necromante_guerreiros_revenantes",
+      "name": "Guerreiros Revenantes",
+      "family_id": "necromante",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 3,
+      "signature": "invocações temporárias aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora controle de mortos e desgaste.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "equipment_language": "invocações temporárias"
+      }
+    },
+    {
+      "id": "tropa_necromante_coro_espectral",
+      "name": "Coro Espectral",
+      "family_id": "necromante",
+      "tier": 3,
+      "role": "suporte",
+      "stats": {
+        "hp": 20,
+        "attack": 8,
+        "defense": 9,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 3,
+      "signature": "invocações temporárias aplicado à função de suporte.",
+      "tactical_use": "Cumpre suporte quando a formação explora controle de mortos e desgaste.",
+      "weakness": "foco inimigo",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "equipment_language": "invocações temporárias"
+      }
+    },
+    {
+      "id": "tropa_necromante_colosso_de_ossos",
+      "name": "Colosso de Ossos",
+      "family_id": "necromante",
+      "tier": 3,
+      "role": "ruptura",
+      "stats": {
+        "hp": 23,
+        "attack": 12,
+        "defense": 8,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 38,
+      "mobilization_supply": 3,
+      "signature": "invocações temporárias aplicado à função de ruptura.",
+      "tactical_use": "Cumpre ruptura quando a formação explora controle de mortos e desgaste.",
+      "weakness": "controle",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "equipment_language": "invocações temporárias"
+      }
+    },
+    {
+      "id": "tropa_mares_marinheiros_de_coral",
+      "name": "Marinheiros de Coral",
+      "family_id": "mares",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "adaptação anfíbia aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora fluxo, cura e terreno molhado.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "equipment_language": "adaptação anfíbia"
+      }
+    },
+    {
+      "id": "tropa_mares_lanceiros_anfibios",
+      "name": "Lanceiros Anfíbios",
+      "family_id": "mares",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "adaptação anfíbia aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora fluxo, cura e terreno molhado.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "equipment_language": "adaptação anfíbia"
+      }
+    },
+    {
+      "id": "tropa_mares_atiradores_de_concha",
+      "name": "Atiradores de Concha",
+      "family_id": "mares",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "adaptação anfíbia aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora fluxo, cura e terreno molhado.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "equipment_language": "adaptação anfíbia"
+      }
+    },
+    {
+      "id": "tropa_mares_guardioes_do_recife",
+      "name": "Guardiões do Recife",
+      "family_id": "mares",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "adaptação anfíbia aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora fluxo, cura e terreno molhado.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "equipment_language": "adaptação anfíbia"
+      }
+    },
+    {
+      "id": "tropa_mares_curadores_de_mare",
+      "name": "Curadores de Maré",
+      "family_id": "mares",
+      "tier": 2,
+      "role": "suporte",
+      "stats": {
+        "hp": 16,
+        "attack": 6,
+        "defense": 7,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "adaptação anfíbia aplicado à função de suporte.",
+      "tactical_use": "Cumpre suporte quando a formação explora fluxo, cura e terreno molhado.",
+      "weakness": "foco inimigo",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "equipment_language": "adaptação anfíbia"
+      }
+    },
+    {
+      "id": "tropa_mares_cavaleiros_de_hipocampo",
+      "name": "Cavaleiros de Hipocampo",
+      "family_id": "mares",
+      "tier": 2,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 15,
+        "attack": 8,
+        "defense": 5,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "adaptação anfíbia aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora fluxo, cura e terreno molhado.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "equipment_language": "adaptação anfíbia"
+      }
+    },
+    {
+      "id": "tropa_mares_bastioes_coralinos",
+      "name": "Bastiões Coralinos",
+      "family_id": "mares",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 3,
+      "signature": "adaptação anfíbia aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora fluxo, cura e terreno molhado.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "equipment_language": "adaptação anfíbia"
+      }
+    },
+    {
+      "id": "tropa_mares_conjuradores_de_tormenta",
+      "name": "Conjuradores de Tormenta",
+      "family_id": "mares",
+      "tier": 3,
+      "role": "especialista",
+      "stats": {
+        "hp": 20,
+        "attack": 11,
+        "defense": 8,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 3,
+      "signature": "adaptação anfíbia aplicado à função de especialista.",
+      "tactical_use": "Cumpre especialista quando a formação explora fluxo, cura e terreno molhado.",
+      "weakness": "condição desfavorável",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "equipment_language": "adaptação anfíbia"
+      }
+    },
+    {
+      "id": "tropa_mares_leviatas_jovens",
+      "name": "Leviatãs Jovens",
+      "family_id": "mares",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 3,
+      "signature": "adaptação anfíbia aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora fluxo, cura e terreno molhado.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "equipment_language": "adaptação anfíbia"
+      }
+    },
+    {
+      "id": "tropa_chama_guardas_da_brasa",
+      "name": "Guardas da Brasa",
+      "family_id": "chama",
+      "tier": 1,
+      "role": "defesa",
+      "stats": {
+        "hp": 18,
+        "attack": 5,
+        "defense": 8,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 23,
+      "mobilization_supply": 1,
+      "signature": "dano crescente por queimadura aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora pressão, queimadura e risco.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "equipment_language": "dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "tropa_chama_lanceiros_igneos",
+      "name": "Lanceiros Ígneos",
+      "family_id": "chama",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 20,
+      "mobilization_supply": 1,
+      "signature": "dano crescente por queimadura aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora pressão, queimadura e risco.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "equipment_language": "dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "tropa_chama_atiradores_de_cinza",
+      "name": "Atiradores de Cinza",
+      "family_id": "chama",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 20,
+      "mobilization_supply": 1,
+      "signature": "dano crescente por queimadura aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora pressão, queimadura e risco.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "equipment_language": "dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "tropa_chama_guerreiros_incandescentes",
+      "name": "Guerreiros Incandescentes",
+      "family_id": "chama",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 30,
+      "mobilization_supply": 2,
+      "signature": "dano crescente por queimadura aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora pressão, queimadura e risco.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "equipment_language": "dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "tropa_chama_piromantes_de_campo",
+      "name": "Piromantes de Campo",
+      "family_id": "chama",
+      "tier": 2,
+      "role": "especialista",
+      "stats": {
+        "hp": 16,
+        "attack": 9,
+        "defense": 6,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 30,
+      "mobilization_supply": 2,
+      "signature": "dano crescente por queimadura aplicado à função de especialista.",
+      "tactical_use": "Cumpre especialista quando a formação explora pressão, queimadura e risco.",
+      "weakness": "condição desfavorável",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "equipment_language": "dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "tropa_chama_cavalaria_de_salamandra",
+      "name": "Cavalaria de Salamandra",
+      "family_id": "chama",
+      "tier": 2,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 15,
+        "attack": 8,
+        "defense": 5,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 30,
+      "mobilization_supply": 2,
+      "signature": "dano crescente por queimadura aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora pressão, queimadura e risco.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "equipment_language": "dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "tropa_chama_bastioes_vulcanicos",
+      "name": "Bastiões Vulcânicos",
+      "family_id": "chama",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 40,
+      "mobilization_supply": 3,
+      "signature": "dano crescente por queimadura aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora pressão, queimadura e risco.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "equipment_language": "dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "tropa_chama_bombardeiros_de_magma",
+      "name": "Bombardeiros de Magma",
+      "family_id": "chama",
+      "tier": 3,
+      "role": "ruptura",
+      "stats": {
+        "hp": 23,
+        "attack": 12,
+        "defense": 8,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 44,
+      "mobilization_supply": 3,
+      "signature": "dano crescente por queimadura aplicado à função de ruptura.",
+      "tactical_use": "Cumpre ruptura quando a formação explora pressão, queimadura e risco.",
+      "weakness": "controle",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "equipment_language": "dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "tropa_chama_avatares_menores",
+      "name": "Avatares Menores",
+      "family_id": "chama",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 40,
+      "mobilization_supply": 3,
+      "signature": "dano crescente por queimadura aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora pressão, queimadura e risco.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "equipment_language": "dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "tropa_geada_guardas_da_geada",
+      "name": "Guardas da Geada",
+      "family_id": "geada",
+      "tier": 1,
+      "role": "defesa",
+      "stats": {
+        "hp": 18,
+        "attack": 5,
+        "defense": 8,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 23,
+      "mobilization_supply": 1,
+      "signature": "controle de movimento aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora controle, defesa e lentidão.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "equipment_language": "controle de movimento"
+      }
+    },
+    {
+      "id": "tropa_geada_lanceiros_glaciais",
+      "name": "Lanceiros Glaciais",
+      "family_id": "geada",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 20,
+      "mobilization_supply": 1,
+      "signature": "controle de movimento aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora controle, defesa e lentidão.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "equipment_language": "controle de movimento"
+      }
+    },
+    {
+      "id": "tropa_geada_arqueiros_da_geada",
+      "name": "Arqueiros da Geada",
+      "family_id": "geada",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 20,
+      "mobilization_supply": 1,
+      "signature": "controle de movimento aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora controle, defesa e lentidão.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "equipment_language": "controle de movimento"
+      }
+    },
+    {
+      "id": "tropa_geada_escudeiros_de_gelo",
+      "name": "Escudeiros de Gelo",
+      "family_id": "geada",
+      "tier": 2,
+      "role": "defesa",
+      "stats": {
+        "hp": 22,
+        "attack": 7,
+        "defense": 10,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 33,
+      "mobilization_supply": 2,
+      "signature": "controle de movimento aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora controle, defesa e lentidão.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "equipment_language": "controle de movimento"
+      }
+    },
+    {
+      "id": "tropa_geada_criomantes_de_campo",
+      "name": "Criomantes de Campo",
+      "family_id": "geada",
+      "tier": 2,
+      "role": "especialista",
+      "stats": {
+        "hp": 16,
+        "attack": 9,
+        "defense": 6,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 30,
+      "mobilization_supply": 2,
+      "signature": "controle de movimento aplicado à função de especialista.",
+      "tactical_use": "Cumpre especialista quando a formação explora controle, defesa e lentidão.",
+      "weakness": "condição desfavorável",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "equipment_language": "controle de movimento"
+      }
+    },
+    {
+      "id": "tropa_geada_cavaleiros_glaciais",
+      "name": "Cavaleiros Glaciais",
+      "family_id": "geada",
+      "tier": 2,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 15,
+        "attack": 8,
+        "defense": 5,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 30,
+      "mobilization_supply": 2,
+      "signature": "controle de movimento aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora controle, defesa e lentidão.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "equipment_language": "controle de movimento"
+      }
+    },
+    {
+      "id": "tropa_geada_guardas_cristalinos",
+      "name": "Guardas Cristalinos",
+      "family_id": "geada",
+      "tier": 3,
+      "role": "defesa",
+      "stats": {
+        "hp": 26,
+        "attack": 9,
+        "defense": 12,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 44,
+      "mobilization_supply": 3,
+      "signature": "controle de movimento aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora controle, defesa e lentidão.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "equipment_language": "controle de movimento"
+      }
+    },
+    {
+      "id": "tropa_geada_teceloes_de_nevasca",
+      "name": "Tecelões de Nevasca",
+      "family_id": "geada",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 40,
+      "mobilization_supply": 3,
+      "signature": "controle de movimento aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora controle, defesa e lentidão.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "equipment_language": "controle de movimento"
+      }
+    },
+    {
+      "id": "tropa_geada_bastioes_de_permafrost",
+      "name": "Bastiões de Permafrost",
+      "family_id": "geada",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 40,
+      "mobilization_supply": 3,
+      "signature": "controle de movimento aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora controle, defesa e lentidão.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "equipment_language": "controle de movimento"
+      }
+    },
+    {
+      "id": "tropa_avariano_batedores_alados",
+      "name": "Batedores Alados",
+      "family_id": "avariano",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 22,
+      "mobilization_supply": 2,
+      "signature": "mobilidade aérea limitada pelo mapa aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora voo, ângulo e resgate.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "equipment_language": "mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "tropa_avariano_arqueiros_avarianos",
+      "name": "Arqueiros Avarianos",
+      "family_id": "avariano",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 22,
+      "mobilization_supply": 2,
+      "signature": "mobilidade aérea limitada pelo mapa aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora voo, ângulo e resgate.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "equipment_language": "mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "tropa_avariano_lanceiros_alados",
+      "name": "Lanceiros Alados",
+      "family_id": "avariano",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 22,
+      "mobilization_supply": 2,
+      "signature": "mobilidade aérea limitada pelo mapa aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora voo, ângulo e resgate.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "equipment_language": "mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "tropa_avariano_sentinelas_do_ninho",
+      "name": "Sentinelas do Ninho",
+      "family_id": "avariano",
+      "tier": 2,
+      "role": "defesa",
+      "stats": {
+        "hp": 22,
+        "attack": 7,
+        "defense": 10,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 38,
+      "mobilization_supply": 3,
+      "signature": "mobilidade aérea limitada pelo mapa aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora voo, ângulo e resgate.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "equipment_language": "mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "tropa_avariano_raptors",
+      "name": "Raptors",
+      "family_id": "avariano",
+      "tier": 2,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 15,
+        "attack": 8,
+        "defense": 5,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 34,
+      "mobilization_supply": 3,
+      "signature": "mobilidade aérea limitada pelo mapa aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora voo, ângulo e resgate.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "equipment_language": "mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "tropa_avariano_resgatadores",
+      "name": "Resgatadores",
+      "family_id": "avariano",
+      "tier": 2,
+      "role": "suporte",
+      "stats": {
+        "hp": 16,
+        "attack": 6,
+        "defense": 7,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 34,
+      "mobilization_supply": 3,
+      "signature": "mobilidade aérea limitada pelo mapa aplicado à função de suporte.",
+      "tactical_use": "Cumpre suporte quando a formação explora voo, ângulo e resgate.",
+      "weakness": "foco inimigo",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "equipment_language": "mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "tropa_avariano_guardas_celestes",
+      "name": "Guardas Celestes",
+      "family_id": "avariano",
+      "tier": 3,
+      "role": "defesa",
+      "stats": {
+        "hp": 26,
+        "attack": 9,
+        "defense": 12,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 49,
+      "mobilization_supply": 4,
+      "signature": "mobilidade aérea limitada pelo mapa aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora voo, ângulo e resgate.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "equipment_language": "mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "tropa_avariano_atiradores_do_zenite",
+      "name": "Atiradores do Zênite",
+      "family_id": "avariano",
+      "tier": 3,
+      "role": "distancia",
+      "stats": {
+        "hp": 18,
+        "attack": 10,
+        "defense": 7,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 46,
+      "mobilization_supply": 4,
+      "signature": "mobilidade aérea limitada pelo mapa aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora voo, ângulo e resgate.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "equipment_language": "mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "tropa_avariano_falange_do_firmamento",
+      "name": "Falange do Firmamento",
+      "family_id": "avariano",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 46,
+      "mobilization_supply": 4,
+      "signature": "mobilidade aérea limitada pelo mapa aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora voo, ângulo e resgate.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "equipment_language": "mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "tropa_draconico_draconatos_jovens",
+      "name": "Draconatos Jovens",
+      "family_id": "draconico",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "alto poder e alto CAP aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora poder, presença e herança elemental.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "equipment_language": "alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "tropa_draconico_lanceiros_de_escama",
+      "name": "Lanceiros de Escama",
+      "family_id": "draconico",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "alto poder e alto CAP aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora poder, presença e herança elemental.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "equipment_language": "alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "tropa_draconico_atiradores_de_sopro",
+      "name": "Atiradores de Sopro",
+      "family_id": "draconico",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "alto poder e alto CAP aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora poder, presença e herança elemental.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "equipment_language": "alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "tropa_draconico_guardas_dragao",
+      "name": "Guardas Dragão",
+      "family_id": "draconico",
+      "tier": 2,
+      "role": "defesa",
+      "stats": {
+        "hp": 22,
+        "attack": 7,
+        "defense": 10,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 45,
+      "mobilization_supply": 3,
+      "signature": "alto poder e alto CAP aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora poder, presença e herança elemental.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "equipment_language": "alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "tropa_draconico_garras_de_assalto",
+      "name": "Garras de Assalto",
+      "family_id": "draconico",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 40,
+      "mobilization_supply": 3,
+      "signature": "alto poder e alto CAP aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora poder, presença e herança elemental.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "equipment_language": "alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "tropa_draconico_arautos",
+      "name": "Arautos",
+      "family_id": "draconico",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 40,
+      "mobilization_supply": 3,
+      "signature": "alto poder e alto CAP aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora poder, presença e herança elemental.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "equipment_language": "alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "tropa_draconico_bastioes_draconicos",
+      "name": "Bastiões Dracônicos",
+      "family_id": "draconico",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 54,
+      "mobilization_supply": 4,
+      "signature": "alto poder e alto CAP aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora poder, presença e herança elemental.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "equipment_language": "alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "tropa_draconico_tempestarios",
+      "name": "Tempestários",
+      "family_id": "draconico",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 54,
+      "mobilization_supply": 4,
+      "signature": "alto poder e alto CAP aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora poder, presença e herança elemental.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "equipment_language": "alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "tropa_draconico_herdeiros_alados",
+      "name": "Herdeiros Alados",
+      "family_id": "draconico",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 54,
+      "mobilization_supply": 4,
+      "signature": "alto poder e alto CAP aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora poder, presença e herança elemental.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "equipment_language": "alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "tropa_deserto_batedores_das_dunas",
+      "name": "Batedores das Dunas",
+      "family_id": "deserto",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 16,
+      "mobilization_supply": 1,
+      "signature": "ignora parte do atrito do terreno aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora mobilidade, atrito e sobrevivência.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "equipment_language": "ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "tropa_deserto_lanceiros_nomades",
+      "name": "Lanceiros Nômades",
+      "family_id": "deserto",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 16,
+      "mobilization_supply": 1,
+      "signature": "ignora parte do atrito do terreno aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora mobilidade, atrito e sobrevivência.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "equipment_language": "ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "tropa_deserto_arqueiros_do_oasis",
+      "name": "Arqueiros do Oásis",
+      "family_id": "deserto",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 16,
+      "mobilization_supply": 1,
+      "signature": "ignora parte do atrito do terreno aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora mobilidade, atrito e sobrevivência.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "equipment_language": "ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "tropa_deserto_cavaleiros_do_vento",
+      "name": "Cavaleiros do Vento",
+      "family_id": "deserto",
+      "tier": 2,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 15,
+        "attack": 8,
+        "defense": 5,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 25,
+      "mobilization_supply": 2,
+      "signature": "ignora parte do atrito do terreno aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora mobilidade, atrito e sobrevivência.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "equipment_language": "ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "tropa_deserto_duelistas_de_safira",
+      "name": "Duelistas de Safira",
+      "family_id": "deserto",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 25,
+      "mobilization_supply": 2,
+      "signature": "ignora parte do atrito do terreno aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora mobilidade, atrito e sobrevivência.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "equipment_language": "ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "tropa_deserto_teceloes_de_areia",
+      "name": "Tecelões de Areia",
+      "family_id": "deserto",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 25,
+      "mobilization_supply": 2,
+      "signature": "ignora parte do atrito do terreno aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora mobilidade, atrito e sobrevivência.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "equipment_language": "ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "tropa_deserto_guardas_do_khan",
+      "name": "Guardas do Khan",
+      "family_id": "deserto",
+      "tier": 3,
+      "role": "defesa",
+      "stats": {
+        "hp": 26,
+        "attack": 9,
+        "defense": 12,
+        "movement": 3,
+        "range": 1
+      },
+      "cap_cost": 4,
+      "recruit_cost_cu": 36,
+      "mobilization_supply": 3,
+      "signature": "ignora parte do atrito do terreno aplicado à função de defesa.",
+      "tactical_use": "Cumpre defesa quando a formação explora mobilidade, atrito e sobrevivência.",
+      "weakness": "anti-armadura",
+      "preferred_mode": "DEFESA",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "equipment_language": "ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "tropa_deserto_atiradores_de_miragem",
+      "name": "Atiradores de Miragem",
+      "family_id": "deserto",
+      "tier": 3,
+      "role": "distancia",
+      "stats": {
+        "hp": 18,
+        "attack": 10,
+        "defense": 7,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 33,
+      "mobilization_supply": 3,
+      "signature": "ignora parte do atrito do terreno aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora mobilidade, atrito e sobrevivência.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "equipment_language": "ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "tropa_deserto_tempestade_montada",
+      "name": "Tempestade Montada",
+      "family_id": "deserto",
+      "tier": 3,
+      "role": "mobilidade",
+      "stats": {
+        "hp": 19,
+        "attack": 10,
+        "defense": 7,
+        "movement": 6,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 33,
+      "mobilization_supply": 3,
+      "signature": "ignora parte do atrito do terreno aplicado à função de mobilidade.",
+      "tactical_use": "Cumpre mobilidade quando a formação explora mobilidade, atrito e sobrevivência.",
+      "weakness": "bloqueio",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "equipment_language": "ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "tropa_bestial_cacadores_da_alcateia",
+      "name": "Caçadores da Alcateia",
+      "family_id": "bestial",
+      "tier": 1,
+      "role": "linha",
+      "stats": {
+        "hp": 14,
+        "attack": 6,
+        "defense": 5,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "sentidos e ataques naturais aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora instinto, sentidos e transformação.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "equipment_language": "sentidos e ataques naturais"
+      }
+    },
+    {
+      "id": "tropa_bestial_lanceiros_de_osso",
+      "name": "Lanceiros de Osso",
+      "family_id": "bestial",
+      "tier": 1,
+      "role": "controle",
+      "stats": {
+        "hp": 11,
+        "attack": 5,
+        "defense": 4,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "sentidos e ataques naturais aplicado à função de controle.",
+      "tactical_use": "Cumpre controle quando a formação explora instinto, sentidos e transformação.",
+      "weakness": "pressão direta",
+      "preferred_mode": "LIVRE",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "equipment_language": "sentidos e ataques naturais"
+      }
+    },
+    {
+      "id": "tropa_bestial_atiradores_feral",
+      "name": "Atiradores Feral",
+      "family_id": "bestial",
+      "tier": 1,
+      "role": "distancia",
+      "stats": {
+        "hp": 10,
+        "attack": 6,
+        "defense": 3,
+        "movement": 4,
+        "range": 4
+      },
+      "cap_cost": 1,
+      "recruit_cost_cu": 17,
+      "mobilization_supply": 1,
+      "signature": "sentidos e ataques naturais aplicado à função de distancia.",
+      "tactical_use": "Cumpre distancia quando a formação explora instinto, sentidos e transformação.",
+      "weakness": "corpo a corpo",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "equipment_language": "sentidos e ataques naturais"
+      }
+    },
+    {
+      "id": "tropa_bestial_predadores",
+      "name": "Predadores",
+      "family_id": "bestial",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "sentidos e ataques naturais aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora instinto, sentidos e transformação.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "equipment_language": "sentidos e ataques naturais"
+      }
+    },
+    {
+      "id": "tropa_bestial_guardioes_totemicos",
+      "name": "Guardiões Totêmicos",
+      "family_id": "bestial",
+      "tier": 2,
+      "role": "linha",
+      "stats": {
+        "hp": 18,
+        "attack": 8,
+        "defense": 7,
+        "movement": 4,
+        "range": 1
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "sentidos e ataques naturais aplicado à função de linha.",
+      "tactical_use": "Cumpre linha quando a formação explora instinto, sentidos e transformação.",
+      "weakness": "ruptura",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "equipment_language": "sentidos e ataques naturais"
+      }
+    },
+    {
+      "id": "tropa_bestial_xamas_de_campo",
+      "name": "Xamãs de Campo",
+      "family_id": "bestial",
+      "tier": 2,
+      "role": "especialista",
+      "stats": {
+        "hp": 16,
+        "attack": 9,
+        "defense": 6,
+        "movement": 4,
+        "range": 3
+      },
+      "cap_cost": 2,
+      "recruit_cost_cu": 26,
+      "mobilization_supply": 2,
+      "signature": "sentidos e ataques naturais aplicado à função de especialista.",
+      "tactical_use": "Cumpre especialista quando a formação explora instinto, sentidos e transformação.",
+      "weakness": "condição desfavorável",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "equipment_language": "sentidos e ataques naturais"
+      }
+    },
+    {
+      "id": "tropa_bestial_peles_de_pedra",
+      "name": "Peles de Pedra",
+      "family_id": "bestial",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 3,
+      "signature": "sentidos e ataques naturais aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora instinto, sentidos e transformação.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "equipment_language": "sentidos e ataques naturais"
+      }
+    },
+    {
+      "id": "tropa_bestial_quimeras",
+      "name": "Quimeras",
+      "family_id": "bestial",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 3,
+      "signature": "sentidos e ataques naturais aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora instinto, sentidos e transformação.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "equipment_language": "sentidos e ataques naturais"
+      }
+    },
+    {
+      "id": "tropa_bestial_alfas_da_cacada",
+      "name": "Alfas da Caçada",
+      "family_id": "bestial",
+      "tier": 3,
+      "role": "comando",
+      "stats": {
+        "hp": 21,
+        "attack": 9,
+        "defense": 9,
+        "movement": 4,
+        "range": 2
+      },
+      "cap_cost": 3,
+      "recruit_cost_cu": 35,
+      "mobilization_supply": 3,
+      "signature": "sentidos e ataques naturais aplicado à função de comando.",
+      "tactical_use": "Cumpre comando quando a formação explora instinto, sentidos e transformação.",
+      "weakness": "isolamento",
+      "preferred_mode": "ATAQUE",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "equipment_language": "sentidos e ataques naturais"
+      }
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "schema_version": 1,
+  "count": 12,
+  "maps": [
+    {
+      "id": "mapa_01",
+      "name": "A Ponte Partida",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "..........",
+        "..F..F....",
+        "..F.......",
+        ".....#....",
+        "..B..#....",
+        ".....#....",
+        "..........",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_02",
+      "name": "Ecos no Bosque",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "..M....M..",
+        "..M....M..",
+        ".....F....",
+        ".##..F..#.",
+        ".....F....",
+        "..M....M..",
+        "..M....M..",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_03",
+      "name": "O Juramento Rubro",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "~~..~~..~~",
+        "~~..~~..~~",
+        "....B.....",
+        "..##..##..",
+        ".....B....",
+        "~~..~~..~~",
+        "~~..~~..~~",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_04",
+      "name": "Engrenagens na Névoa",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "....#.....",
+        ".F..#..F..",
+        "....#.....",
+        "..B....B..",
+        ".....#....",
+        ".F..#..F..",
+        "....#.....",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_05",
+      "name": "A Forja Silenciada",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "..........",
+        "..F..F....",
+        "..F.......",
+        ".....#....",
+        "..B..#....",
+        ".....#....",
+        "..........",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_06",
+      "name": "A Torre Impossível",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "..M....M..",
+        "..M....M..",
+        ".....F....",
+        ".##..F..#.",
+        ".....F....",
+        "..M....M..",
+        "..M....M..",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_07",
+      "name": "Aurora Cercada",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "~~..~~..~~",
+        "~~..~~..~~",
+        "....B.....",
+        "..##..##..",
+        ".....B....",
+        "~~..~~..~~",
+        "~~..~~..~~",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_08",
+      "name": "Sob o Véu",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "....#.....",
+        ".F..#..F..",
+        "....#.....",
+        "..B....B..",
+        ".....#....",
+        ".F..#..F..",
+        "....#.....",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_09",
+      "name": "Ossos que Marcham",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "..........",
+        "..F..F....",
+        "..F.......",
+        ".....#....",
+        "..B..#....",
+        ".....#....",
+        "..........",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_10",
+      "name": "Maré de Cinzas",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "..M....M..",
+        "..M....M..",
+        ".....F....",
+        ".##..F..#.",
+        ".....F....",
+        "..M....M..",
+        "..M....M..",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_11",
+      "name": "Coração da Caldeira",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "~~..~~..~~",
+        "~~..~~..~~",
+        "....B.....",
+        "..##..##..",
+        ".....B....",
+        "~~..~~..~~",
+        "~~..~~..~~",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "mapa_12",
+      "name": "O Último Inverno",
+      "width": 10,
+      "height": 8,
+      "grid": [
+        "....#.....",
+        ".F..#..F..",
+        "....#.....",
+        "..B....B..",
+        ".....#....",
+        ".F..#..F..",
+        "....#.....",
+        "....O....."
+      ],
+      "legend": {
+        ".": "chão",
+        "F": "floresta/cobertura",
+        "#": "parede",
+        "M": "elevação",
+        "~": "água",
+        "B": "bloqueio",
+        "O": "objetivo"
+      },
+      "blue_spawns": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "red_spawns": [
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "schema_version": 2,
+  "count": 32,
+  "characters": [
+    {
+      "id": "heroi_humano",
+      "name": "Alda Varen",
+      "family_id": "humano",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_humano_aspirante_humano",
+      "goal": "provar que ordem não exige uma coroa absoluta nem fome administrada",
+      "internal_conflict": "Alda precisa usar a máquina logística que condena enquanto tenta democratizá-la",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "formações coordenadas"
+      },
+      "schema_version": 2,
+      "political_position": "auditoria pública dos celeiros e voto provincial sobre requisições",
+      "creed": "Nenhuma estrada vale mais que as pessoas que a pavimentaram.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "O marechal Edran entrega rotas da Coalizão a Cael para impedir que Valedouro seja a próxima cidade sacrificada."
+    },
+    {
+      "id": "rival_humano",
+      "name": "Regente Cael",
+      "family_id": "humano",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_humano_aspirante_humano",
+      "goal": "centralizar o abastecimento antes que a disputa sucessória transforme escassez em guerra civil",
+      "internal_conflict": "Cael sabe que sua solução salva cidades no curto prazo e enterra qualquer limite ao poder",
+      "visual": {
+        "palette": [
+          "ouro",
+          "marfim",
+          "azul aço"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "um único comando capaz de racionar grão e mover exércitos sem veto local",
+      "creed": "Direitos não alimentam uma cidade quando todos os celeiros queimam.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "O marechal Edran entrega rotas da Coalizão a Cael para impedir que Valedouro seja a próxima cidade sacrificada."
+    },
+    {
+      "id": "heroi_elfo",
+      "name": "Sylwen Aeril",
+      "family_id": "elfo",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_elfo_iniciado_do_bosque",
+      "goal": "salvar a floresta sem tratar famintos e migrantes como uma praga",
+      "internal_conflict": "Sylwen protege uma cultura que também apagou comunidades de borda dos mapas",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "vantagem em cobertura natural"
+      },
+      "schema_version": 2,
+      "political_position": "corredores temporários com retirada verificável e reparação ecológica",
+      "creed": "Uma floresta que só protege os antigos já começou a morrer.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Sylwen autoriza secretamente uma ponte de raízes para refugiados, quebrando o voto do próprio Círculo."
+    },
+    {
+      "id": "rival_elfo",
+      "name": "Thalan Espinho",
+      "family_id": "elfo",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_elfo_iniciado_do_bosque",
+      "goal": "selar Lythara contra qualquer povo externo até que as nascentes estabilizem",
+      "internal_conflict": "Thalan tem razão sobre o dano acumulado e está disposto a condenar milhões a jusante",
+      "visual": {
+        "palette": [
+          "prata",
+          "âmbar",
+          "verde musgo"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "fechar as bordas, militarizar as copas e decidir sozinho quem recebe água",
+      "creed": "Toda concessão temporária deixou uma cicatriz permanente.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Sylwen autoriza secretamente uma ponte de raízes para refugiados, quebrando o voto do próprio Círculo."
+    },
+    {
+      "id": "heroi_orc",
+      "name": "Gorak Três-Marcas",
+      "family_id": "orc",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_orc_jovem_do_cla",
+      "goal": "unir os clãs sem transformar união em império",
+      "internal_conflict": "Gorak ascendeu por um código de força que mantém os sem-clã fora de qualquer proteção",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "ímpeto após avançar"
+      },
+      "schema_version": 2,
+      "political_position": "reconhecimento de corredores e representação por clã, não por fronteira estrangeira",
+      "creed": "Juramento sem lugar para o fraco é apenas ameaça bem pronunciada.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Gorak entrega um poço ancestral aos sem-clã, violando o juramento que lhe deu comando."
+    },
+    {
+      "id": "rival_orc",
+      "name": "Maug Sem-Clã",
+      "family_id": "orc",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_orc_jovem_do_cla",
+      "goal": "criar um khanato central que ninguém possa expulsar de suas próprias rotas",
+      "internal_conflict": "Maug nasceu sem-clã e usa autoritarismo para corrigir uma exclusão real",
+      "visual": {
+        "palette": [
+          "osso",
+          "carvão",
+          "vermelho óxido"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "um único khan com mapas fixos, poços armados e acesso garantido ao comércio",
+      "creed": "Vocês chamam de liberdade o direito dos clãs fortes de nos abandonar.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Gorak entrega um poço ancestral aos sem-clã, violando o juramento que lhe deu comando."
+    },
+    {
+      "id": "heroi_goblin",
+      "name": "Nix Parafuso",
+      "family_id": "goblin",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_goblin_catador_goblin",
+      "goal": "libertar o engenho goblin sem transformar cada descoberta em arma da Coalizão",
+      "internal_conflict": "Nix roubou patentes para os trabalhadores e também vendeu projetos perigosos",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "baixo CAP e reposicionamento"
+      },
+      "schema_version": 2,
+      "political_position": "licenças abertas para tecnologia de sobrevivência e fim da dívida hereditária",
+      "creed": "Se todos dependem da máquina, todos devem entender quem paga quando ela falha.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Nix vendeu o protótipo da Bomba Ambulante anos antes e tenta ocultar sua assinatura."
+    },
+    {
+      "id": "rival_goblin",
+      "name": "Grizna Estopim",
+      "family_id": "goblin",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_goblin_catador_goblin",
+      "goal": "industrializar a Liga rápido o bastante para que ninguém volte a tratá-la como depósito",
+      "internal_conflict": "Grizna oferece emprego e dignidade por meio de uma economia de guerra que nunca poderá parar",
+      "visual": {
+        "palette": [
+          "preto",
+          "cobre",
+          "verde ácido"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "compras militares garantidas, proteção de patentes e uma diretoria única",
+      "creed": "Moral é luxo de quem nunca teve a oficina penhorada.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Nix vendeu o protótipo da Bomba Ambulante anos antes e tenta ocultar sua assinatura."
+    },
+    {
+      "id": "heroi_anao",
+      "name": "Dhorin Karad",
+      "family_id": "anao",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_anao_aprendiz_da_forja",
+      "goal": "impedir o colapso de Karad sem manter trabalhadores presos a contratos ancestrais",
+      "internal_conflict": "Dhorin herdou o trono e as dívidas que sustentam seu poder",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "bloqueio e ruptura"
+      },
+      "schema_version": 2,
+      "political_position": "segurança de mina independente e partilha continental do custo dos âncoras",
+      "creed": "Pedra firme não desculpa contrato podre.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Vorik revela que os anões construíram os Dezesseis Pesos e que a dívida original foi paga com vidas omitidas."
+    },
+    {
+      "id": "rival_anao",
+      "name": "Vorik Cinza",
+      "family_id": "anao",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_anao_aprendiz_da_forja",
+      "goal": "honrar todos os contratos para preservar crédito, emprego e a rede de selos",
+      "internal_conflict": "Vorik teme com razão que quebrar um juramento derrube toda a confiança comercial",
+      "visual": {
+        "palette": [
+          "azul rúnico",
+          "granito",
+          "bronze"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "dívida cancelada para casas que entregarem controle total das forjas",
+      "creed": "Quando um contrato cai, a montanha inteira sente o desabamento.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Vorik revela que os anões construíram os Dezesseis Pesos e que a dívida original foi paga com vidas omitidas."
+    },
+    {
+      "id": "heroi_arcano",
+      "name": "Ilyra Septa",
+      "family_id": "arcano",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_arcano_adepto_do_aether",
+      "goal": "abrir o conhecimento arcano e admitir a responsabilidade do próprio Círculo",
+      "internal_conflict": "Ilyra participou do experimento que sincronizou as Fraturas e ocultou sua assinatura",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "flexibilidade mágica"
+      },
+      "schema_version": 2,
+      "political_position": "dados abertos, revisão externa e limite civil ao uso do Aether",
+      "creed": "Incerteza não nos absolve de explicar quem corre o risco.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Ilyra entrega temporariamente a Chave de Septúria a Oryn para impedir uma queda imediata e parece desertar."
+    },
+    {
+      "id": "rival_arcano",
+      "name": "Magíster Oryn",
+      "family_id": "arcano",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_arcano_adepto_do_aether",
+      "goal": "centralizar decisões em especialistas antes que plebiscitos lentos matem continentes",
+      "internal_conflict": "Oryn manipula dados, mas seu diagnóstico de urgência é real",
+      "visual": {
+        "palette": [
+          "branco",
+          "ciano",
+          "violeta"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "estado de exceção tecnocrático até que a probabilidade de extinção caia",
+      "creed": "A realidade não negocia com quem prefere uma mentira confortável.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Ilyra entrega temporariamente a Chave de Septúria a Oryn para impedir uma queda imediata e parece desertar."
+    },
+    {
+      "id": "heroi_luz",
+      "name": "Seren Helianto",
+      "family_id": "luz",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_luz_acolito_da_aurora",
+      "goal": "manter a rede de cuidado ao mesmo tempo que desmonta a autoridade que a financia",
+      "internal_conflict": "Seren deve denunciar a instituição que alimentou, curou e educou milhões",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "proteção e recuperação"
+      },
+      "schema_version": 2,
+      "political_position": "abrir os arquivos e separar socorro humanitário de obediência religiosa",
+      "creed": "Fé que cobra silêncio de quem sofre serve ao altar, não à luz.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Seren entrega o relicário a umbrais para copiar o arquivo, violando seu voto e expondo pacientes."
+    },
+    {
+      "id": "rival_luz",
+      "name": "Prelado Solmar",
+      "family_id": "luz",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_luz_acolito_da_aurora",
+      "goal": "preservar a Igreja intacta porque sua queda deixaria refugiados sem nenhum sistema comum",
+      "internal_conflict": "Solmar encobre crimes para proteger serviços cuja ausência também mataria",
+      "visual": {
+        "palette": [
+          "azul celeste",
+          "ouro",
+          "branco"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "um dogma unificado que legitima o comando central e preserva a rede hospitalar",
+      "creed": "Uma verdade lançada sem abrigo pode matar mais que a mentira.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Seren entrega o relicário a umbrais para copiar o arquivo, violando seu voto e expondo pacientes."
+    },
+    {
+      "id": "heroi_sombrio",
+      "name": "Nyx Vesper",
+      "family_id": "sombrio",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_sombrio_tocado_pelo_veu",
+      "goal": "usar segredos para impedir tirania sem governar por chantagem",
+      "internal_conflict": "Nyx protegeu inocentes apagando provas que também incriminavam aliados",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "debilitação e emboscada"
+      },
+      "schema_version": 2,
+      "political_position": "proteção jurídica a testemunhas e limites ao uso militar de dossiês",
+      "creed": "Segredo pode ser abrigo; quando vira trono, todos respiram medo.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Nyx apaga a identidade de Edran para protegê-lo de execução e perde a confiança da Coalizão."
+    },
+    {
+      "id": "rival_sombrio",
+      "name": "Dama Vanta",
+      "family_id": "sombrio",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_sombrio_tocado_pelo_veu",
+      "goal": "unificar a inteligência para eliminar guerras antes que comecem",
+      "internal_conflict": "Vanta evita massacres por meios que tornam qualquer oposição impossível",
+      "visual": {
+        "palette": [
+          "magenta",
+          "preto",
+          "índigo"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "um serviço secreto único com imunidade e acesso a todos os arquivos",
+      "creed": "A verdade pública chega sempre depois dos funerais.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Nyx apaga a identidade de Edran para protegê-lo de execução e perde a confiança da Coalizão."
+    },
+    {
+      "id": "heroi_necromante",
+      "name": "Mara Ossária",
+      "family_id": "necromante",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_necromante_discipulo_do_ossuario",
+      "goal": "dar voz aos mortos sem transformar corpos em recurso estatal",
+      "internal_conflict": "Mara usou o corpo da própria mãe sem consentimento para impedir uma epidemia",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "invocações temporárias"
+      },
+      "schema_version": 2,
+      "political_position": "protocolo de consentimento e reconhecimento jurídico limitado do testemunho ancestral",
+      "creed": "Memória não é munição, mesmo quando os vivos temem o que ela dirá.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Mara admite ter despertado sua mãe e permite que o testemunho a condene."
+    },
+    {
+      "id": "rival_necromante",
+      "name": "Arquimorto Veyr",
+      "family_id": "necromante",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_necromante_discipulo_do_ossuario",
+      "goal": "usar todos os mortos disponíveis para impedir que mais vivos se juntem a eles",
+      "internal_conflict": "Veyr viola consentimento por um cálculo utilitário que frequentemente salva cidades",
+      "visual": {
+        "palette": [
+          "vinho",
+          "verde espectral",
+          "cinza osso"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "acesso irrestrito a cadáveres de guerra em troca de estabilização e cidadania",
+      "creed": "Os mortos já pagaram. Recusar sua força é cobrar dos vivos outra vez.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Mara admite ter despertado sua mãe e permite que o testemunho a condene."
+    },
+    {
+      "id": "heroi_mares",
+      "name": "Neris Coral",
+      "family_id": "mares",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_mares_filho_das_mares",
+      "goal": "preservar as ilhas sem usar naufrágio e fome como arma diplomática",
+      "internal_conflict": "Neris participou de um bloqueio que conteve peste e matou civis",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "adaptação anfíbia"
+      },
+      "schema_version": 2,
+      "political_position": "soberania portuária, fim de garantias territoriais e fundo comum para ilhas submersas",
+      "creed": "Rota segura para o império não vale uma ilha sem escolha.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Neris admite ter ordenado o naufrágio que abriu o arco de Morvath."
+    },
+    {
+      "id": "rival_mares",
+      "name": "Corsária Nereth",
+      "family_id": "mares",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_mares_filho_das_mares",
+      "goal": "unificar a marinha para impedir que cada ilha venda a segurança das outras",
+      "internal_conflict": "Nereth pratica pirataria, mas protege ilhas que a Assembleia abandonou",
+      "visual": {
+        "palette": [
+          "azul profundo",
+          "coral",
+          "turquesa"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "uma marinha central que mantém rotas abertas e relocaliza ilhas por decreto",
+      "creed": "Soberania sem navio é uma palavra escrita antes da inundação.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Neris admite ter ordenado o naufrágio que abriu o arco de Morvath."
+    },
+    {
+      "id": "heroi_chama",
+      "name": "Kael Pyr",
+      "family_id": "chama",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_chama_nascido_da_chama",
+      "goal": "manter Pyr viva sem alimentar uma guerra necessária para pagar sua água",
+      "internal_conflict": "Kael organizou greves e depois autorizou fornos militares para evitar fome",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "dano crescente por queimadura"
+      },
+      "schema_version": 2,
+      "political_position": "controle operário de segurança e conversão progressiva da economia de guerra",
+      "creed": "A forja existe para servir à cidade; a cidade não é combustível da forja.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Kael esconde que o Coração Refrigerado foi comprado com portos de Nymar oferecidos por Cael."
+    },
+    {
+      "id": "rival_chama",
+      "name": "Cônsul Brasa",
+      "family_id": "chama",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_chama_nascido_da_chama",
+      "goal": "garantir trabalho, água e defesa por meio de produção militar contínua",
+      "internal_conflict": "Brasa sustenta bairros inteiros com contratos que prolongam o conflito",
+      "visual": {
+        "palette": [
+          "obsidiana",
+          "escarlate",
+          "laranja"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "encomendas permanentes, água garantida e evacuação seletiva dos técnicos",
+      "creed": "Paz sem salário e sem água é só guerra vencida por quem já tinha tudo.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Kael esconde que o Coração Refrigerado foi comprado com portos de Nymar oferecidos por Cael."
+    },
+    {
+      "id": "heroi_geada",
+      "name": "Yrsa Skeld",
+      "family_id": "geada",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_geada_nascido_da_geada",
+      "goal": "salvar comunidades do degelo sem transformar água em arma",
+      "internal_conflict": "Yrsa fechou um fiorde para preservar reservas e condenou uma frota estrangeira",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "controle de movimento"
+      },
+      "schema_version": 2,
+      "political_position": "cotas de água negociadas e reassentamento continental de refugiados climáticos",
+      "creed": "Água guardada para um povo só apodrece em guerra.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Yrsa admite ter fechado o fiorde do naufrágio e aceita reparação a Nymar."
+    },
+    {
+      "id": "rival_geada",
+      "name": "Jarl Hroth",
+      "family_id": "geada",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_geada_nascido_da_geada",
+      "goal": "preservar Skeld fechando rotas até que o ciclo climático estabilize",
+      "internal_conflict": "Hroth protege famílias reais, mas exporta o custo para refugiados e vizinhos",
+      "visual": {
+        "palette": [
+          "branco",
+          "prata",
+          "azul gelo"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "racionamento central e fronteiras móveis impostas por um comando técnico",
+      "creed": "Quem abre o portão no inverno precisa dizer qual criança ficará sem comida.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Yrsa admite ter fechado o fiorde do naufrágio e aceita reparação a Nymar."
+    },
+    {
+      "id": "heroi_avariano",
+      "name": "Aren Zênite",
+      "family_id": "avariano",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_avariano_nascido_dos_ceus",
+      "goal": "manter o céu aberto sem vender informação e resgate ao maior pagador",
+      "internal_conflict": "Aren protege a neutralidade de uma rede que sempre privilegiou ninhos altos",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "mobilidade aérea limitada pelo mapa"
+      },
+      "schema_version": 2,
+      "political_position": "neutralidade verificável do correio e fundo comum de resgate",
+      "creed": "Mensagem neutra não existe quando alguns esperam no abismo.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Aren desviou correios para salvar aliados e destruiu a neutralidade que defendia."
+    },
+    {
+      "id": "rival_avariano",
+      "name": "Garra Silex",
+      "family_id": "avariano",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_avariano_nascido_dos_ceus",
+      "goal": "financiar a sobrevivência avariana cobrando prioridade e alinhando o correio à Convergência",
+      "internal_conflict": "Silex explora a crise, mas paga resgates que o Conselho ignorou",
+      "visual": {
+        "palette": [
+          "branco",
+          "ocre",
+          "azul céu"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "monopólio oficial, rotas militares protegidas e prioridade de evacuação aos ninhos altos",
+      "creed": "Quem quer o céu aberto precisa sustentar as asas que caem.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Aren desviou correios para salvar aliados e destruiu a neutralidade que defendia."
+    },
+    {
+      "id": "heroi_draconico",
+      "name": "Varkesh Azur",
+      "family_id": "draconico",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_draconico_sangue_de_dragao",
+      "goal": "proteger ovos e memória sem reconstruir o império dos Primeiros",
+      "internal_conflict": "Varkesh descende da linhagem que ajudou a impor os Pesos",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "alto poder e alto CAP"
+      },
+      "schema_version": 2,
+      "political_position": "custódia compartilhada dos núcleos e reconhecimento dos crimes antigos contra linhagens",
+      "creed": "Herança explica nosso poder; não nos concede o direito de repeti-lo.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Varkesh entrega um núcleo aos guardiões sem linhagem e rompe o privilégio ancestral."
+    },
+    {
+      "id": "rival_draconico",
+      "name": "Sarthax Rubro",
+      "family_id": "draconico",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_draconico_sangue_de_dragao",
+      "goal": "criar uma dissuasão dracônica que impeça qualquer região de dominar as demais",
+      "internal_conflict": "Sarthax responde a perseguições reais com ameaça de destruição coletiva",
+      "visual": {
+        "palette": [
+          "carmesim",
+          "esmeralda",
+          "bronze"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "soberania dracônica em troca de um arsenal central de dissuasão",
+      "creed": "Só chamam nossa força de monstruosa quando não está a serviço deles.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Varkesh entrega um núcleo aos guardiões sem linhagem e rompe o privilégio ancestral."
+    },
+    {
+      "id": "heroi_deserto",
+      "name": "Samira Sahir",
+      "family_id": "deserto",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_deserto_andarilho_das_dunas",
+      "goal": "preservar o Pacto dos Poços sem congelar nômades em fronteiras urbanas",
+      "internal_conflict": "Samira é filha da corte e enriqueceu com taxas que quer abolir",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "ignora parte do atrito do terreno"
+      },
+      "schema_version": 2,
+      "political_position": "direitos móveis de água e representação nômade nos tratados",
+      "creed": "Mapa que ignora quem move a água é só uma arma com bordas bonitas.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Samira usa um mapa falso para atrair Namar e condena uma caravana aliada à tempestade."
+    },
+    {
+      "id": "rival_deserto",
+      "name": "Vizir Namar",
+      "family_id": "deserto",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_deserto_andarilho_das_dunas",
+      "goal": "centralizar os poços antes que cidades e caravanas morram disputando miragens",
+      "internal_conflict": "Namar constrói canais eficientes que também tornam nômades dependentes",
+      "visual": {
+        "palette": [
+          "cobre",
+          "azul safira",
+          "areia"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "canais fortificados e racionamento urbano em troca do fim das rotas livres",
+      "creed": "Liberdade de rota não enche um odre quando o poço desaparece.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Samira usa um mapa falso para atrair Namar e condena uma caravana aliada à tempestade."
+    },
+    {
+      "id": "heroi_bestial",
+      "name": "Rauk Pedra-Uivo",
+      "family_id": "bestial",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_bestial_desperto_primevo",
+      "goal": "defender a Fronteira sem idealizar tradições que excluem clãs transformados",
+      "internal_conflict": "Rauk pertence ao clã dominante e aceitou caçadas contra metamorfos instáveis",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "sentidos e ataques naturais"
+      },
+      "schema_version": 2,
+      "political_position": "soberania ecológica e veto local sobre extração ou selamento",
+      "creed": "Natureza não é inocente; poder também não é inevitável.",
+      "moral_gray_function": "aliado responsável por escolhas contestáveis",
+      "regional_betrayal_or_reversal": "Rauk admite as caçadas e entrega o Totem de comando a Suma antes da batalha final."
+    },
+    {
+      "id": "rival_bestial",
+      "name": "Urrak Lua-Cega",
+      "family_id": "bestial",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_bestial_desperto_primevo",
+      "goal": "fechar a Fronteira e expulsar todos os povos antes que o núcleo seja explorado",
+      "internal_conflict": "Urrak sobreviveu a experimentos arcanos e transforma trauma legítimo em pureza territorial",
+      "visual": {
+        "palette": [
+          "marrom",
+          "verde escuro",
+          "ocre"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      },
+      "schema_version": 2,
+      "political_position": "proteção militar e reservas fechadas em troca de acesso ao núcleo vivo",
+      "creed": "Toda promessa externa chegou com uma jaula escondida.",
+      "moral_gray_function": "rival com diagnóstico legítimo e método coercivo",
+      "regional_betrayal_or_reversal": "Rauk admite as caçadas e entrega o Totem de comando a Suma antes da batalha final."
+    }
+  ]
+}

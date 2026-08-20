@@ -1,0 +1,50 @@
+{
+  "title": "Asterra: As Dezesseis Fraturas",
+  "version": "2.2.1",
+  "status": "campanha_narrativa_e_prototipo_validados",
+  "entrypoint": "python -m tactical_rpg.web",
+  "content": {
+    "character_classes": 240,
+    "troop_classes": 144,
+    "troop_target": "aproximadamente 140",
+    "families": 16,
+    "regions": 16,
+    "stages_per_region": 10,
+    "scenarios": 160,
+    "maps": 160,
+    "campaign_acts": 4,
+    "central_characters": 32,
+    "political_marks": 6,
+    "documented_endings": 3
+  },
+  "active_data": {
+    "vertical_slice": "vertical_slice_v_3.json",
+    "maps": "mapas_v_3.json",
+    "scenarios": "cenarios_v_3.json",
+    "campaign": "campanha_v_3.json",
+    "regions": "regioes_v_2.json",
+    "characters": "personagens_v_2.json"
+  },
+  "playability": {
+    "all_character_classes_selectable": true,
+    "all_troop_classes_selectable": true,
+    "enemy_and_npc_ai": true,
+    "alternate_unit_activation": true,
+    "campaign_interface": true,
+    "canonical_route_executable": true,
+    "full_branch_persistence": false,
+    "offline": true
+  },
+  "validation": {
+    "automated_tests": 59,
+    "test_duration_seconds": 221.689,
+    "scenario_simulations": 160,
+    "all_scenarios_simulated_to_terminal_state": true,
+    "all_maps_connected": true,
+    "critical_invariants_covered": true,
+    "narrative_continuity_covered": true,
+    "javascript_syntax_checked": true,
+    "master_document_pages_reviewed": 93,
+    "master_document_sha256": "C13C1ED53C14B84E2A545B705132AE06E801DD9501EC1F7FC3CFF1EB8DA72765"
+  }
+}

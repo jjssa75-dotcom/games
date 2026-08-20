@@ -1,0 +1,582 @@
+{
+  "schema_version": 1,
+  "count": 32,
+  "characters": [
+    {
+      "id": "heroi_humano",
+      "name": "Alda Varen",
+      "family_id": "humano",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_humano_aspirante_humano",
+      "goal": "proteger Reinos da Coroa Partida sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "formações coordenadas"
+      }
+    },
+    {
+      "id": "rival_humano",
+      "name": "Regente Cael",
+      "family_id": "humano",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_humano_aspirante_humano",
+      "goal": "usar a Fratura para controlar Reinos da Coroa Partida",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "ouro",
+          "marfim",
+          "azul aço"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_elfo",
+      "name": "Sylwen Aeril",
+      "family_id": "elfo",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_elfo_iniciado_do_bosque",
+      "goal": "proteger Bosque de Lythara sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "vantagem em cobertura natural"
+      }
+    },
+    {
+      "id": "rival_elfo",
+      "name": "Thalan Espinho",
+      "family_id": "elfo",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_elfo_iniciado_do_bosque",
+      "goal": "usar a Fratura para controlar Bosque de Lythara",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "prata",
+          "âmbar",
+          "verde musgo"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_orc",
+      "name": "Gorak Três-Marcas",
+      "family_id": "orc",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_orc_jovem_do_cla",
+      "goal": "proteger Terras Rubras sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "ímpeto após avançar"
+      }
+    },
+    {
+      "id": "rival_orc",
+      "name": "Maug Sem-Clã",
+      "family_id": "orc",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_orc_jovem_do_cla",
+      "goal": "usar a Fratura para controlar Terras Rubras",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "osso",
+          "carvão",
+          "vermelho óxido"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_goblin",
+      "name": "Nix Parafuso",
+      "family_id": "goblin",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_goblin_catador_goblin",
+      "goal": "proteger Liga das Engrenagens sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "baixo CAP e reposicionamento"
+      }
+    },
+    {
+      "id": "rival_goblin",
+      "name": "Grizna Estopim",
+      "family_id": "goblin",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_goblin_catador_goblin",
+      "goal": "usar a Fratura para controlar Liga das Engrenagens",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "preto",
+          "cobre",
+          "verde ácido"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_anao",
+      "name": "Dhorin Karad",
+      "family_id": "anao",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_anao_aprendiz_da_forja",
+      "goal": "proteger Montanhas de Karad sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "bloqueio e ruptura"
+      }
+    },
+    {
+      "id": "rival_anao",
+      "name": "Vorik Cinza",
+      "family_id": "anao",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_anao_aprendiz_da_forja",
+      "goal": "usar a Fratura para controlar Montanhas de Karad",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "azul rúnico",
+          "granito",
+          "bronze"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_arcano",
+      "name": "Ilyra Septa",
+      "family_id": "arcano",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_arcano_adepto_do_aether",
+      "goal": "proteger Círculo de Aether sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "flexibilidade mágica"
+      }
+    },
+    {
+      "id": "rival_arcano",
+      "name": "Magíster Oryn",
+      "family_id": "arcano",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_arcano_adepto_do_aether",
+      "goal": "usar a Fratura para controlar Círculo de Aether",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "branco",
+          "ciano",
+          "violeta"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_luz",
+      "name": "Seren Helianto",
+      "family_id": "luz",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_luz_acolito_da_aurora",
+      "goal": "proteger Domínios da Aurora sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "proteção e recuperação"
+      }
+    },
+    {
+      "id": "rival_luz",
+      "name": "Prelado Solmar",
+      "family_id": "luz",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_luz_acolito_da_aurora",
+      "goal": "usar a Fratura para controlar Domínios da Aurora",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "azul celeste",
+          "ouro",
+          "branco"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_sombrio",
+      "name": "Nyx Vesper",
+      "family_id": "sombrio",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_sombrio_tocado_pelo_veu",
+      "goal": "proteger Véu de Nox sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "debilitação e emboscada"
+      }
+    },
+    {
+      "id": "rival_sombrio",
+      "name": "Dama Vanta",
+      "family_id": "sombrio",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_sombrio_tocado_pelo_veu",
+      "goal": "usar a Fratura para controlar Véu de Nox",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "magenta",
+          "preto",
+          "índigo"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_necromante",
+      "name": "Mara Ossária",
+      "family_id": "necromante",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_necromante_discipulo_do_ossuario",
+      "goal": "proteger Ossuário de Morvath sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "invocações temporárias"
+      }
+    },
+    {
+      "id": "rival_necromante",
+      "name": "Arquimorto Veyr",
+      "family_id": "necromante",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_necromante_discipulo_do_ossuario",
+      "goal": "usar a Fratura para controlar Ossuário de Morvath",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "vinho",
+          "verde espectral",
+          "cinza osso"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_mares",
+      "name": "Neris Coral",
+      "family_id": "mares",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_mares_filho_das_mares",
+      "goal": "proteger Arquipélago de Nymar sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "adaptação anfíbia"
+      }
+    },
+    {
+      "id": "rival_mares",
+      "name": "Corsária Nereth",
+      "family_id": "mares",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_mares_filho_das_mares",
+      "goal": "usar a Fratura para controlar Arquipélago de Nymar",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "azul profundo",
+          "coral",
+          "turquesa"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_chama",
+      "name": "Kael Pyr",
+      "family_id": "chama",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_chama_nascido_da_chama",
+      "goal": "proteger Caldeira de Pyr sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "dano crescente por queimadura"
+      }
+    },
+    {
+      "id": "rival_chama",
+      "name": "Cônsul Brasa",
+      "family_id": "chama",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_chama_nascido_da_chama",
+      "goal": "usar a Fratura para controlar Caldeira de Pyr",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "obsidiana",
+          "escarlate",
+          "laranja"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_geada",
+      "name": "Yrsa Skeld",
+      "family_id": "geada",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_geada_nascido_da_geada",
+      "goal": "proteger Coroa Invernal sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "controle de movimento"
+      }
+    },
+    {
+      "id": "rival_geada",
+      "name": "Jarl Hroth",
+      "family_id": "geada",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_geada_nascido_da_geada",
+      "goal": "usar a Fratura para controlar Coroa Invernal",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "branco",
+          "prata",
+          "azul gelo"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_avariano",
+      "name": "Aren Zênite",
+      "family_id": "avariano",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_avariano_nascido_dos_ceus",
+      "goal": "proteger Picos de Avar sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "mobilidade aérea limitada pelo mapa"
+      }
+    },
+    {
+      "id": "rival_avariano",
+      "name": "Garra Silex",
+      "family_id": "avariano",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_avariano_nascido_dos_ceus",
+      "goal": "usar a Fratura para controlar Picos de Avar",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "branco",
+          "ocre",
+          "azul céu"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_draconico",
+      "name": "Varkesh Azur",
+      "family_id": "draconico",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_draconico_sangue_de_dragao",
+      "goal": "proteger Escamas Ancestrais sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "alto poder e alto CAP"
+      }
+    },
+    {
+      "id": "rival_draconico",
+      "name": "Sarthax Rubro",
+      "family_id": "draconico",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_draconico_sangue_de_dragao",
+      "goal": "usar a Fratura para controlar Escamas Ancestrais",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "carmesim",
+          "esmeralda",
+          "bronze"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_deserto",
+      "name": "Samira Sahir",
+      "family_id": "deserto",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_deserto_andarilho_das_dunas",
+      "goal": "proteger Mar de Safira sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "ignora parte do atrito do terreno"
+      }
+    },
+    {
+      "id": "rival_deserto",
+      "name": "Vizir Namar",
+      "family_id": "deserto",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_deserto_andarilho_das_dunas",
+      "goal": "usar a Fratura para controlar Mar de Safira",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "cobre",
+          "azul safira",
+          "areia"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    },
+    {
+      "id": "heroi_bestial",
+      "name": "Rauk Pedra-Uivo",
+      "family_id": "bestial",
+      "alignment": "Coalizão",
+      "starting_class_id": "classe_bestial_desperto_primevo",
+      "goal": "proteger Fronteira Primeva sem sacrificar sua autonomia",
+      "internal_conflict": "dever contra identidade",
+      "visual": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "silhouette": "comandante legível a distância",
+        "motif": "sentidos e ataques naturais"
+      }
+    },
+    {
+      "id": "rival_bestial",
+      "name": "Urrak Lua-Cega",
+      "family_id": "bestial",
+      "alignment": "Convergência",
+      "starting_class_id": "classe_bestial_desperto_primevo",
+      "goal": "usar a Fratura para controlar Fronteira Primeva",
+      "internal_conflict": "ordem imposta contra sobrevivência",
+      "visual": {
+        "palette": [
+          "marrom",
+          "verde escuro",
+          "ocre"
+        ],
+        "silhouette": "rival angular e assimétrico",
+        "motif": "fragmento da Fratura"
+      }
+    }
+  ]
+}

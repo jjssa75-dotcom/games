@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "balance_status": "hipoteses_de_prototipo",
+  "catalog_scope": {
+    "vertical_slice_commanders": 6,
+    "vertical_slice_troops": 8,
+    "future_character_classes": 240,
+    "future_troop_classes_approx": 160,
+    "future_catalog_is_implementation_scope": false
+  },
+  "abilities": [
+    {"id":"avancar","name":"Avançar!","kind":"command","cmd_cost":2,"duration_rounds":1,"modifiers":{"movement":1,"morale":5},"tags":["movimento","moral"]},
+    {"id":"manter_posicao","name":"Manter Posição!","kind":"command","cmd_cost":2,"duration_rounds":1,"modifiers":{"defense":2},"tags":["defesa","anti_deslocamento"]},
+    {"id":"foco_alvo","name":"Foco de Alvo","kind":"command","cmd_cost":2,"duration_rounds":1,"modifiers":{"accuracy":15},"tags":["precisao"]},
+    {"id":"reagrupar","name":"Reagrupar","kind":"command","cmd_cost":2,"duration_rounds":1,"modifiers":{"morale":20},"tags":["moral"]},
+    {"id":"preparar_lanca","name":"Preparar Lança","kind":"stance","duration_rounds":1,"modifiers":{},"tags":["reacao","anti_cavalaria"]},
+    {"id":"escarmuca","name":"Escaramuça","kind":"active","duration_rounds":1,"modifiers":{},"tags":["reposicionamento"]}
+  ],
+  "commanders": [
+    {"id":"cmd_vanguarda","name":"Alda, Capitã da Vanguarda","role":"lideranca_ofensiva","hp":20,"attack":7,"defense":5,"movement":4,"attack_range":1,"cap_cost":0,"cap_limit":8,"cmd_max":5,"cmd_regen":2,"abilities":["avancar"]},
+    {"id":"cmd_bastiao","name":"Bram, Guardião do Bastião","role":"lideranca_defensiva","hp":22,"attack":5,"defense":7,"movement":3,"attack_range":1,"cap_cost":0,"cap_limit":8,"cmd_max":5,"cmd_regen":2,"abilities":["manter_posicao"]},
+    {"id":"cmd_estrategista","name":"Cira, Estrategista de Campo","role":"posicionamento","hp":17,"attack":4,"defense":4,"movement":4,"attack_range":2,"cap_cost":0,"cap_limit":6,"cmd_max":7,"cmd_regen":3,"abilities":["foco_alvo"]},
+    {"id":"cmd_batedor","name":"Dagan, Mestre Batedor","role":"mobilidade","hp":18,"attack":6,"defense":4,"movement":6,"attack_range":2,"cap_cost":0,"cap_limit":6,"cmd_max":5,"cmd_regen":2,"abilities":["avancar"]},
+    {"id":"cmd_moral","name":"Elian, Porta-Estandarte","role":"moral","hp":19,"attack":5,"defense":5,"movement":4,"attack_range":1,"cap_cost":0,"cap_limit":8,"cmd_max":6,"cmd_regen":2,"abilities":["reagrupar"]},
+    {"id":"cmd_hibrido","name":"Fara, Oficial de Linha","role":"flexivel","hp":20,"attack":6,"defense":6,"movement":4,"attack_range":1,"cap_cost":0,"cap_limit":8,"cmd_max":5,"cmd_regen":2,"abilities":["avancar","manter_posicao"]}
+  ],
+  "troops": [
+    {"id":"tropa_espadas","name":"Espadachins da Linha","role":"infantaria_media","hp":14,"attack":6,"defense":5,"movement":4,"attack_range":1,"cap_cost":2},
+    {"id":"tropa_lanceiros","name":"Lanceiros de Fronteira","role":"anti_cavalaria","hp":13,"attack":5,"defense":5,"movement":4,"attack_range":1,"cap_cost":2,"abilities":["preparar_lanca"]},
+    {"id":"tropa_guarda","name":"Guarda Pesada","role":"infantaria_pesada","hp":18,"attack":5,"defense":8,"movement":3,"attack_range":1,"cap_cost":3},
+    {"id":"tropa_arqueiros","name":"Arqueiros de Campanha","role":"pressao_distancia","hp":10,"attack":6,"defense":3,"movement":4,"attack_range":4,"cap_cost":2},
+    {"id":"tropa_besteiros","name":"Besteiros de Cerco","role":"anti_armadura","hp":11,"attack":7,"defense":3,"movement":3,"attack_range":3,"cap_cost":2},
+    {"id":"tropa_batedores","name":"Batedores","role":"reconhecimento","hp":9,"attack":4,"defense":3,"movement":6,"attack_range":2,"cap_cost":1},
+    {"id":"tropa_cavalaria_leve","name":"Cavalaria Leve","role":"flanqueamento","hp":13,"attack":6,"defense":4,"movement":7,"attack_range":1,"cap_cost":3},
+    {"id":"tropa_escaramucadores","name":"Escaramuçadores","role":"reposicionamento","hp":10,"attack":5,"defense":3,"movement":5,"attack_range":3,"cap_cost":2,"abilities":["escarmuca"]}
+  ]
+}
+

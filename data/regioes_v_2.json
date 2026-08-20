@@ -1,0 +1,646 @@
+{
+  "schema_version": 2,
+  "count": 16,
+  "regions": [
+    {
+      "id": "regiao_humano",
+      "name": "Reinos da Coroa Partida",
+      "family_id": "humano",
+      "capital": "Valedouro",
+      "terrain": "planícies, fortalezas e estradas",
+      "identity": "disciplina, adaptabilidade e comando",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza formações coordenadas e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "azul aço",
+          "marfim",
+          "ouro"
+        ],
+        "landmark": "marco de formações coordenadas"
+      },
+      "schema_version": 2,
+      "polity": "Conselho de Regência de Valedouro",
+      "governance": "monarquia sem herdeiro reconhecido, administrada por cidades juramentadas e um regente de guerra",
+      "political_economy": "celeiros, estradas, pedágios e crédito militar",
+      "strategic_resources": [
+        "grão",
+        "cavalos",
+        "pontes",
+        "selos de dívida"
+      ],
+      "territorial_role": "o corredor central que liga oito rotas continentais",
+      "historical_grievance": "as províncias alimentam a guerra, mas a capital decide quem recebe pão e proteção",
+      "fracture_stake": "a Fratura corta estradas e descoordena os marcos de comando que mantêm o reino abastecido",
+      "coalition_demand": "auditoria pública dos celeiros e voto provincial sobre requisições",
+      "convergence_offer": "um único comando capaz de racionar grão e mover exércitos sem veto local",
+      "internal_blocs": [
+        "províncias juramentadas",
+        "guildas de estrada",
+        "guarda da regência"
+      ],
+      "credible_betrayal": "O marechal Edran entrega rotas da Coalizão a Cael para impedir que Valedouro seja a próxima cidade sacrificada.",
+      "regional_resolution": "Cael aceita depor a coroa de emergência em troca de um conselho logístico vinculante."
+    },
+    {
+      "id": "regiao_elfo",
+      "name": "Bosque de Lythara",
+      "family_id": "elfo",
+      "capital": "Copa de Elarin",
+      "terrain": "florestas antigas e passarelas vivas",
+      "identity": "precisão, floresta e mobilidade",
+      "strategic_resource": "suprimentos",
+      "conflict": "A Fratura desestabiliza vantagem em cobertura natural e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "verde musgo",
+          "âmbar",
+          "prata"
+        ],
+        "landmark": "marco de vantagem em cobertura natural"
+      },
+      "schema_version": 2,
+      "polity": "Círculo das Copas de Lythara",
+      "governance": "assembleia de casas-árvore, guardiões de nascente e comunidades de borda",
+      "political_economy": "madeira viva licenciada, remédios, sementes e controle das bacias d'água",
+      "strategic_resources": [
+        "madeira viva",
+        "ervas",
+        "sementes",
+        "nascentes"
+      ],
+      "territorial_role": "a floresta que regula as chuvas das planícies humanas e das estepes orcs",
+      "historical_grievance": "tratados de emergência sempre viram estradas permanentes e assentamentos armados",
+      "fracture_stake": "raízes perdem memória, nascentes mudam de curso e antigas passarelas atacam invasores e habitantes",
+      "coalition_demand": "corredores temporários com retirada verificável e reparação ecológica",
+      "convergence_offer": "fechar as bordas, militarizar as copas e decidir sozinho quem recebe água",
+      "internal_blocs": [
+        "casas das copas",
+        "comunidades de borda",
+        "guardiões de nascente"
+      ],
+      "credible_betrayal": "Sylwen autoriza secretamente uma ponte de raízes para refugiados, quebrando o voto do próprio Círculo.",
+      "regional_resolution": "Lythara aceita corredores sazonais governados também pelas comunidades de borda."
+    },
+    {
+      "id": "regiao_orc",
+      "name": "Terras Rubras",
+      "family_id": "orc",
+      "capital": "Khar-Dumak",
+      "terrain": "estepes, cânions e arenas",
+      "identity": "ímpeto, moral ofensiva e força",
+      "strategic_resource": "reputação",
+      "conflict": "A Fratura desestabiliza ímpeto após avançar e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "vermelho óxido",
+          "carvão",
+          "osso"
+        ],
+        "landmark": "marco de ímpeto após avançar"
+      },
+      "schema_version": 2,
+      "polity": "Confederação dos Três Clãs Rubros",
+      "governance": "assembleias de clã, juramentos públicos e liderança temporária por campanha",
+      "political_economy": "rebanhos, ferro de superfície, cavalos e proteção das rotas de migração",
+      "strategic_resources": [
+        "cavalos",
+        "ferro rubro",
+        "sal",
+        "corredores de pasto"
+      ],
+      "territorial_role": "estepes e cânions entre os celeiros humanos e as minas goblins",
+      "historical_grievance": "fronteiras desenhadas por sedentários criminalizam migrações mais antigas que seus reinos",
+      "fracture_stake": "a Fratura desloca poços e concentra rebanhos, tornando inevitável a disputa entre clãs",
+      "coalition_demand": "reconhecimento de corredores e representação por clã, não por fronteira estrangeira",
+      "convergence_offer": "um único khan com mapas fixos, poços armados e acesso garantido ao comércio",
+      "internal_blocs": [
+        "clãs de pastoreio",
+        "ferreiros de cânion",
+        "sem-clã"
+      ],
+      "credible_betrayal": "Gorak entrega um poço ancestral aos sem-clã, violando o juramento que lhe deu comando.",
+      "regional_resolution": "o juramento final cria cidadania de corredor e assentos permanentes para os sem-clã."
+    },
+    {
+      "id": "regiao_goblin",
+      "name": "Liga das Engrenagens",
+      "family_id": "goblin",
+      "capital": "Trinco-Fundo",
+      "terrain": "pântanos, sucata e túneis",
+      "identity": "número, engenho e oportunismo",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza baixo CAP e reposicionamento e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "verde ácido",
+          "cobre",
+          "preto"
+        ],
+        "landmark": "marco de baixo CAP e reposicionamento"
+      },
+      "schema_version": 2,
+      "polity": "Liga Cooperativa das Engrenagens",
+      "governance": "guildas de oficina com votos proporcionais a patentes, produção e risco assumido",
+      "political_economy": "reciclagem, bombas, canais, munição e contratos de manutenção",
+      "strategic_resources": [
+        "sucata",
+        "turfa",
+        "bombas d'água",
+        "patentes"
+      ],
+      "territorial_role": "pântanos industriais e túneis que drenam o centro do continente",
+      "historical_grievance": "quem cria a máquina raramente possui a patente; dívida técnica virou trabalho hereditário",
+      "fracture_stake": "a energia instável torna oficinas vitais e explosivas ao mesmo tempo",
+      "coalition_demand": "licenças abertas para tecnologia de sobrevivência e fim da dívida hereditária",
+      "convergence_offer": "compras militares garantidas, proteção de patentes e uma diretoria única",
+      "internal_blocs": [
+        "donos de patente",
+        "cooperativas de sucata",
+        "devedores de oficina"
+      ],
+      "credible_betrayal": "Nix vendeu o protótipo da Bomba Ambulante anos antes e tenta ocultar sua assinatura.",
+      "regional_resolution": "a Liga converte patentes vitais em bens comuns e limita contratos militares."
+    },
+    {
+      "id": "regiao_anao",
+      "name": "Montanhas de Karad",
+      "family_id": "anao",
+      "capital": "Forja-Mãe",
+      "terrain": "montanhas, salões e minas",
+      "identity": "armadura, engenharia e resistência",
+      "strategic_resource": "suprimentos",
+      "conflict": "A Fratura desestabiliza bloqueio e ruptura e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "bronze",
+          "granito",
+          "azul rúnico"
+        ],
+        "landmark": "marco de bloqueio e ruptura"
+      },
+      "schema_version": 2,
+      "polity": "Trono Contratual de Karad",
+      "governance": "casas de ofício vinculadas por dívida, segurança de mina e juramentos de pedra",
+      "political_economy": "mineração, trilhos, fortificação e fabricação dos âncoras rúnicos",
+      "strategic_resources": [
+        "granito rúnico",
+        "ferro",
+        "trilhos",
+        "âncoras de Fratura"
+      ],
+      "territorial_role": "cadeia montanhosa que sustenta os túneis de comércio e os principais selos",
+      "historical_grievance": "o continente depende de Karad, mas empurra para mineiros o custo humano de cada selo",
+      "fracture_stake": "os âncoras racham salões e consomem gerações de trabalho subterrâneo",
+      "coalition_demand": "segurança de mina independente e partilha continental do custo dos âncoras",
+      "convergence_offer": "dívida cancelada para casas que entregarem controle total das forjas",
+      "internal_blocs": [
+        "casas de ofício",
+        "mineiros vinculados",
+        "engenheiros de âncora"
+      ],
+      "credible_betrayal": "Vorik revela que os anões construíram os Dezesseis Pesos e que a dívida original foi paga com vidas omitidas.",
+      "regional_resolution": "Karad transforma dívidas hereditárias em responsabilidade continental auditada."
+    },
+    {
+      "id": "regiao_arcano",
+      "name": "Círculo de Aether",
+      "family_id": "arcano",
+      "capital": "Septúria",
+      "terrain": "ilhas flutuantes e observatórios",
+      "identity": "mana, manipulação e conhecimento",
+      "strategic_resource": "reputação",
+      "conflict": "A Fratura desestabiliza flexibilidade mágica e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "violeta",
+          "ciano",
+          "branco"
+        ],
+        "landmark": "marco de flexibilidade mágica"
+      },
+      "schema_version": 2,
+      "polity": "Círculo Septuário de Aether",
+      "governance": "sete cátedras técnicas com autoridade sobre pesquisa, previsão e licenças mágicas",
+      "political_economy": "navegação, previsão climática, portais limitados e educação monopolizada",
+      "strategic_resources": [
+        "Aether",
+        "mapas de probabilidade",
+        "prismas",
+        "licenças"
+      ],
+      "territorial_role": "ilhas flutuantes acima das correntes que conectam todas as Fraturas",
+      "historical_grievance": "todos exigem previsões perfeitas, mas nenhum governo aceita o custo de errar sob incerteza",
+      "fracture_stake": "os cálculos mostram colapso sistêmico, mas também revelam que o experimento arcano acelerou a crise",
+      "coalition_demand": "dados abertos, revisão externa e limite civil ao uso do Aether",
+      "convergence_offer": "estado de exceção tecnocrático até que a probabilidade de extinção caia",
+      "internal_blocs": [
+        "sete cátedras",
+        "aprendizes licenciados",
+        "comunidades abaixo das ilhas"
+      ],
+      "credible_betrayal": "Ilyra entrega temporariamente a Chave de Septúria a Oryn para impedir uma queda imediata e parece desertar.",
+      "regional_resolution": "o Círculo perde soberania sobre dados e passa a responder a um conselho multirregional."
+    },
+    {
+      "id": "regiao_luz",
+      "name": "Domínios da Aurora",
+      "family_id": "luz",
+      "capital": "Helianto",
+      "terrain": "vales solares e basílicas",
+      "identity": "proteção, cura e convicção",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza proteção e recuperação e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "branco",
+          "ouro",
+          "azul celeste"
+        ],
+        "landmark": "marco de proteção e recuperação"
+      },
+      "schema_version": 2,
+      "polity": "Sínodo dos Sete Sóis",
+      "governance": "rede de basílicas, hospitais, tribunais de juramento e arquivos canônicos",
+      "political_economy": "dízimos, cura, acolhimento de refugiados e certificação de tratados",
+      "strategic_resources": [
+        "legitimidade",
+        "hospitais",
+        "arquivos",
+        "relíquias-selo"
+      ],
+      "territorial_role": "vales centrais que recebem peregrinos e reconhecem governos",
+      "historical_grievance": "todos criticam a Igreja até precisarem de abrigo, cura ou um tratado que alguém cumpra",
+      "fracture_stake": "milagres falham de modo desigual e o arquivo secreto liga a doutrina aos sacrifícios antigos",
+      "coalition_demand": "abrir os arquivos e separar socorro humanitário de obediência religiosa",
+      "convergence_offer": "um dogma unificado que legitima o comando central e preserva a rede hospitalar",
+      "internal_blocs": [
+        "ordens hospitalares",
+        "inquisidores",
+        "paróquias de fronteira"
+      ],
+      "credible_betrayal": "Seren entrega o relicário a umbrais para copiar o arquivo, violando seu voto e expondo pacientes.",
+      "regional_resolution": "o Sínodo é substituído por um pacto de cuidados civis e religiosos com arquivos abertos."
+    },
+    {
+      "id": "regiao_sombrio",
+      "name": "Véu de Nox",
+      "family_id": "sombrio",
+      "capital": "Umbracorte",
+      "terrain": "charnecas, ruínas e névoa",
+      "identity": "furtividade, medo e maldições",
+      "strategic_resource": "suprimentos",
+      "conflict": "A Fratura desestabiliza debilitação e emboscada e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "índigo",
+          "preto",
+          "magenta"
+        ],
+        "landmark": "marco de debilitação e emboscada"
+      },
+      "schema_version": 2,
+      "polity": "Conclave das Máscaras de Nox",
+      "governance": "casas de informação equilibradas por anonimato, chantagem recíproca e proteção de testemunhas",
+      "political_economy": "inteligência, contrabando, rotas noturnas e identidade segura",
+      "strategic_resources": [
+        "segredos",
+        "rotas ocultas",
+        "máscaras",
+        "antídotos"
+      ],
+      "territorial_role": "charnecas e ruínas entre os centros de poder, fora de mapas oficiais",
+      "historical_grievance": "reinos usam espiões umbrais em paz e os culpam publicamente quando a guerra chega",
+      "fracture_stake": "a névoa expõe memórias e destrói o anonimato que mantém o equilíbrio político",
+      "coalition_demand": "proteção jurídica a testemunhas e limites ao uso militar de dossiês",
+      "convergence_offer": "um serviço secreto único com imunidade e acesso a todos os arquivos",
+      "internal_blocs": [
+        "casas de informação",
+        "contrabandistas",
+        "testemunhas protegidas"
+      ],
+      "credible_betrayal": "Nyx apaga a identidade de Edran para protegê-lo de execução e perde a confiança da Coalizão.",
+      "regional_resolution": "Nox mantém sua rede, mas transfere custódia de provas políticas a um arquivo multilateral."
+    },
+    {
+      "id": "regiao_necromante",
+      "name": "Ossuário de Morvath",
+      "family_id": "necromante",
+      "capital": "Necrópole Cinzenta",
+      "terrain": "cemitérios, salinas e criptas",
+      "identity": "controle de mortos e desgaste",
+      "strategic_resource": "reputação",
+      "conflict": "A Fratura desestabiliza invocações temporárias e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "cinza osso",
+          "verde espectral",
+          "vinho"
+        ],
+        "landmark": "marco de invocações temporárias"
+      },
+      "schema_version": 2,
+      "polity": "Conselho Mortuário de Morvath",
+      "governance": "coveiros vivos, curadores de memória e representantes temporários dos mortos consentidos",
+      "political_economy": "sal, funerais, testemunho ancestral e trabalho cadavérico regulamentado",
+      "strategic_resources": [
+        "sal",
+        "memórias",
+        "ossos rúnicos",
+        "testemunhos"
+      ],
+      "territorial_role": "salinas e criptas onde convergem mortos de todas as guerras",
+      "historical_grievance": "outros povos exigem testemunho dos mortos, mas negam a Morvath qualquer voz política",
+      "fracture_stake": "mortos despertam sem consentimento e antigos crimes retornam como prova material",
+      "coalition_demand": "protocolo de consentimento e reconhecimento jurídico limitado do testemunho ancestral",
+      "convergence_offer": "acesso irrestrito a cadáveres de guerra em troca de estabilização e cidadania",
+      "internal_blocs": [
+        "coveiros vivos",
+        "curadores de memória",
+        "utilitaristas do osso"
+      ],
+      "credible_betrayal": "Mara admite ter despertado sua mãe e permite que o testemunho a condene.",
+      "regional_resolution": "Morvath cria mandatos funerários renováveis e proíbe alistamento automático de mortos de guerra."
+    },
+    {
+      "id": "regiao_mares",
+      "name": "Arquipélago de Nymar",
+      "family_id": "mares",
+      "capital": "Porto-Coral",
+      "terrain": "ilhas, recifes e canais",
+      "identity": "fluxo, cura e terreno molhado",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza adaptação anfíbia e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "turquesa",
+          "coral",
+          "azul profundo"
+        ],
+        "landmark": "marco de adaptação anfíbia"
+      },
+      "schema_version": 2,
+      "polity": "Assembleia das Ilhas de Nymar",
+      "governance": "conselhos insulares, capitães eleitos e pactos de maré revistos a cada estação",
+      "political_economy": "sal, pesca, cura marinha, faróis e cobrança de rotas oceânicas",
+      "strategic_resources": [
+        "peixe",
+        "sal",
+        "coral curativo",
+        "rotas marítimas"
+      ],
+      "territorial_role": "arquipélago que liga continentes e controla correntes de tempestade",
+      "historical_grievance": "potências continentais tratam ilhas como portos, nunca como comunidades soberanas",
+      "fracture_stake": "marés imprevisíveis afogam ilhas baixas enquanto rotas de socorro viram bloqueios",
+      "coalition_demand": "soberania portuária, fim de garantias territoriais e fundo comum para ilhas submersas",
+      "convergence_offer": "uma marinha central que mantém rotas abertas e relocaliza ilhas por decreto",
+      "internal_blocs": [
+        "ilhas altas",
+        "comunidades submersíveis",
+        "corsários"
+      ],
+      "credible_betrayal": "Neris admite ter ordenado o naufrágio que abriu o arco de Morvath.",
+      "regional_resolution": "Nymar cria uma frota confederada sob veto das ilhas baixas e anula garantias territoriais."
+    },
+    {
+      "id": "regiao_chama",
+      "name": "Caldeira de Pyr",
+      "family_id": "chama",
+      "capital": "Cinerária",
+      "terrain": "vulcões, cinza e fundições",
+      "identity": "pressão, queimadura e risco",
+      "strategic_resource": "suprimentos",
+      "conflict": "A Fratura desestabiliza dano crescente por queimadura e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "laranja",
+          "escarlate",
+          "obsidiana"
+        ],
+        "landmark": "marco de dano crescente por queimadura"
+      },
+      "schema_version": 2,
+      "polity": "Consórcio Cívico da Caldeira de Pyr",
+      "governance": "bairros-forja, sindicatos de risco e um cônsul eleito por produção e segurança",
+      "political_economy": "fundição, armas, cerâmica, calor e processamento de minérios",
+      "strategic_resources": [
+        "calor",
+        "aço",
+        "obsidiana",
+        "armas"
+      ],
+      "territorial_role": "caldeira industrial que equipa exércitos e aquece cidades de geada",
+      "historical_grievance": "o continente condena as forjas enquanto exige armas, ferramentas e aquecimento barato",
+      "fracture_stake": "pressão térmica ameaça bairros operários e torna paralisação tão mortal quanto produção",
+      "coalition_demand": "controle operário de segurança e conversão progressiva da economia de guerra",
+      "convergence_offer": "encomendas permanentes, água garantida e evacuação seletiva dos técnicos",
+      "internal_blocs": [
+        "sindicatos de risco",
+        "donos de forno",
+        "bairros dependentes"
+      ],
+      "credible_betrayal": "Kael esconde que o Coração Refrigerado foi comprado com portos de Nymar oferecidos por Cael.",
+      "regional_resolution": "Pyr converte fornos militares em âncoras e infraestrutura sob controle dos bairros."
+    },
+    {
+      "id": "regiao_geada",
+      "name": "Coroa Invernal",
+      "family_id": "geada",
+      "capital": "Skeld",
+      "terrain": "geleiras, fiordes e cavernas",
+      "identity": "controle, defesa e lentidão",
+      "strategic_resource": "reputação",
+      "conflict": "A Fratura desestabiliza controle de movimento e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "azul gelo",
+          "prata",
+          "branco"
+        ],
+        "landmark": "marco de controle de movimento"
+      },
+      "schema_version": 2,
+      "polity": "Althing da Coroa Invernal",
+      "governance": "assembleia de fiordes, jarls temporários e juramentos de provisão no inverno",
+      "political_economy": "gelo, água doce, conservação de alimento e rotas sazonais",
+      "strategic_resources": [
+        "água doce",
+        "gelo",
+        "peixe preservado",
+        "passagens"
+      ],
+      "territorial_role": "geleiras que alimentam rios e abrem rotas apenas parte do ano",
+      "historical_grievance": "o sul exige água e passagem enquanto trata refugiados do degelo como problema local",
+      "fracture_stake": "a Fratura alterna congelamento e degelo, deslocando aldeias e tornando mapas políticos obsoletos",
+      "coalition_demand": "cotas de água negociadas e reassentamento continental de refugiados climáticos",
+      "convergence_offer": "racionamento central e fronteiras móveis impostas por um comando técnico",
+      "internal_blocs": [
+        "fiordes antigos",
+        "refugiados do degelo",
+        "mercadores de gelo"
+      ],
+      "credible_betrayal": "Yrsa admite ter fechado o fiorde do naufrágio e aceita reparação a Nymar.",
+      "regional_resolution": "Skeld vincula cotas de água a reassentamento e representação dos deslocados."
+    },
+    {
+      "id": "regiao_avariano",
+      "name": "Picos de Avar",
+      "family_id": "avariano",
+      "capital": "Ninho do Zênite",
+      "terrain": "picos, pontes e correntes aéreas",
+      "identity": "voo, ângulo e resgate",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza mobilidade aérea limitada pelo mapa e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "azul céu",
+          "ocre",
+          "branco"
+        ],
+        "landmark": "marco de mobilidade aérea limitada pelo mapa"
+      },
+      "schema_version": 2,
+      "polity": "Conselho dos Ninhos do Zênite",
+      "governance": "ninhos por altitude, correios juramentados e voto ligado à manutenção das pontes aéreas",
+      "political_economy": "mensageria, meteorologia, resgate e controle de passagens elevadas",
+      "strategic_resources": [
+        "rotas aéreas",
+        "previsão",
+        "penas-selo",
+        "resgate"
+      ],
+      "territorial_role": "picos que dominam comunicações e atalhos entre todas as regiões",
+      "historical_grievance": "os vales exigem correio neutro, mas recusam pagar pelos riscos e pelas aldeias atingidas por tempestades",
+      "fracture_stake": "correntes aéreas fecham rotas e tornam o monopólio de comunicação uma arma política",
+      "coalition_demand": "neutralidade verificável do correio e fundo comum de resgate",
+      "convergence_offer": "monopólio oficial, rotas militares protegidas e prioridade de evacuação aos ninhos altos",
+      "internal_blocs": [
+        "ninhos altos",
+        "resgatadores",
+        "correios neutros"
+      ],
+      "credible_betrayal": "Aren desviou correios para salvar aliados e destruiu a neutralidade que defendia.",
+      "regional_resolution": "as rotas tornam-se bem comum com prioridade definida por risco humano, não riqueza."
+    },
+    {
+      "id": "regiao_draconico",
+      "name": "Escamas Ancestrais",
+      "family_id": "draconico",
+      "capital": "Drak-Azur",
+      "terrain": "mesetas, vulcões e templos",
+      "identity": "poder, presença e herança elemental",
+      "strategic_resource": "suprimentos",
+      "conflict": "A Fratura desestabiliza alto poder e alto CAP e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "bronze",
+          "esmeralda",
+          "carmesim"
+        ],
+        "landmark": "marco de alto poder e alto CAP"
+      },
+      "schema_version": 2,
+      "polity": "Conclave das Escamas Ancestrais",
+      "governance": "linhagens com custódia de ovos, templos de memória e pactos de não proliferação",
+      "political_economy": "núcleos térmicos, proteção de mesetas e aluguel de força estratégica",
+      "strategic_resources": [
+        "núcleos",
+        "ovos",
+        "metais raros",
+        "memória ancestral"
+      ],
+      "territorial_role": "mesetas fortificadas acima de reservas energéticas e templos do Primeiro",
+      "historical_grievance": "outros povos temem o poder dracônico, mas compram sua dissuasão quando conveniente",
+      "fracture_stake": "núcleos despertam e transformam herança biológica em arma de escala continental",
+      "coalition_demand": "custódia compartilhada dos núcleos e reconhecimento dos crimes antigos contra linhagens",
+      "convergence_offer": "soberania dracônica em troca de um arsenal central de dissuasão",
+      "internal_blocs": [
+        "linhagens de templo",
+        "guardiões sem sangue",
+        "militaristas de núcleo"
+      ],
+      "credible_betrayal": "Varkesh entrega um núcleo aos guardiões sem linhagem e rompe o privilégio ancestral.",
+      "regional_resolution": "os núcleos passam a custódia multirregional e ovos deixam de definir cidadania."
+    },
+    {
+      "id": "regiao_deserto",
+      "name": "Mar de Safira",
+      "family_id": "deserto",
+      "capital": "Qasr-Sahir",
+      "terrain": "dunas, oásis e cânions",
+      "identity": "mobilidade, atrito e sobrevivência",
+      "strategic_resource": "reputação",
+      "conflict": "A Fratura desestabiliza ignora parte do atrito do terreno e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "areia",
+          "azul safira",
+          "cobre"
+        ],
+        "landmark": "marco de ignora parte do atrito do terreno"
+      },
+      "schema_version": 2,
+      "polity": "Pacto dos Poços de Qasr-Sahir",
+      "governance": "cidades-oásis e caravanas nômades com direitos sazonais sobre água e passagem",
+      "political_economy": "água, vidro de safira, cartografia e comércio de longa distância",
+      "strategic_resources": [
+        "água",
+        "vidro-safira",
+        "mapas",
+        "especiarias"
+      ],
+      "territorial_role": "dunas e cânions entre as rotas do sul e a Fronteira Primeva",
+      "historical_grievance": "cidades registram poços; nômades os mantêm e desaparecem dos tratados",
+      "fracture_stake": "miragens alteram mapas e a Fratura drena o aquífero compartilhado com Lythara",
+      "coalition_demand": "direitos móveis de água e representação nômade nos tratados",
+      "convergence_offer": "canais fortificados e racionamento urbano em troca do fim das rotas livres",
+      "internal_blocs": [
+        "cidades-oásis",
+        "caravanas nômades",
+        "cartógrafos de safira"
+      ],
+      "credible_betrayal": "Samira usa um mapa falso para atrair Namar e condena uma caravana aliada à tempestade.",
+      "regional_resolution": "o Pacto reconhece cidadania móvel e gestão conjunta do aquífero com Lythara."
+    },
+    {
+      "id": "regiao_bestial",
+      "name": "Fronteira Primeva",
+      "family_id": "bestial",
+      "capital": "Pedra-Uivo",
+      "terrain": "selvas, savanas e cavernas",
+      "identity": "instinto, sentidos e transformação",
+      "strategic_resource": "ouro",
+      "conflict": "A Fratura desestabiliza sentidos e ataques naturais e divide as lideranças locais.",
+      "art_direction": {
+        "palette": [
+          "ocre",
+          "verde escuro",
+          "marrom"
+        ],
+        "landmark": "marco de sentidos e ataques naturais"
+      },
+      "schema_version": 2,
+      "polity": "Círculo de Totens da Fronteira Primeva",
+      "governance": "clãs por habitat, guardiões de migração e assembleias convocadas por sinais naturais",
+      "political_economy": "medicinas, resinas, caça regulada e manejo de biodiversidade",
+      "strategic_resources": [
+        "medicinas",
+        "sementes primevas",
+        "resinas",
+        "conhecimento ecológico"
+      ],
+      "territorial_role": "selva, savana e cavernas sobre a Primeira Fratura",
+      "historical_grievance": "exploradores chamam conhecimento bestial de instinto para usá-lo sem reconhecer soberania",
+      "fracture_stake": "a Primeira Fratura é também um órgão vivo; selá-la como máquina destruiria ecossistemas inteiros",
+      "coalition_demand": "soberania ecológica e veto local sobre extração ou selamento",
+      "convergence_offer": "proteção militar e reservas fechadas em troca de acesso ao núcleo vivo",
+      "internal_blocs": [
+        "clãs de habitat",
+        "metamorfos marcados",
+        "guardiões do núcleo"
+      ],
+      "credible_betrayal": "Rauk admite as caçadas e entrega o Totem de comando a Suma antes da batalha final.",
+      "regional_resolution": "a Primeira Fratura torna-se um pacto vivo distribuído; nenhum povo possui o núcleo."
+    }
+  ]
+}

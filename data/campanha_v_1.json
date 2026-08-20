@@ -1,0 +1,54 @@
+{
+  "title": "Asterra: As Dezesseis Fraturas",
+  "logline": "Dezesseis povos precisam formar uma coalizão antes que a Convergência transforme as Fraturas do mundo em uma única ordem militar.",
+  "acts": [
+    {
+      "number": 1,
+      "title": "Sinais da Ruptura",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "arc": "Alda reúne os primeiros aliados e descobre que as crises regionais compartilham uma origem."
+    },
+    {
+      "number": 2,
+      "title": "A Marcha da Convergência",
+      "chapters": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "arc": "A guerra revela que cada solução absoluta alimenta a Fratura central."
+    },
+    {
+      "number": 3,
+      "title": "O Conselho das Dezesseis",
+      "chapters": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "arc": "A Coalizão aceita diferenças táticas e fecha a Fratura sem apagar as culturas."
+    }
+  ],
+  "ending": "A vitória preserva as dezesseis regiões e abre a campanha pós-jogo de reconstrução e conflitos locais.",
+  "scenario_ids": [
+    "cenario_01",
+    "cenario_02",
+    "cenario_03",
+    "cenario_04",
+    "cenario_05",
+    "cenario_06",
+    "cenario_07",
+    "cenario_08",
+    "cenario_09",
+    "cenario_10",
+    "cenario_11",
+    "cenario_12"
+  ]
+}

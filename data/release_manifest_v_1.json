@@ -1,0 +1,31 @@
+{
+  "title": "Asterra: As Dezesseis Fraturas",
+  "version": "1.0.0",
+  "status": "edicao_de_fundacao_funcional",
+  "entrypoint": "python -m tactical_rpg",
+  "content": {
+    "character_classes": 240,
+    "troop_classes": 144,
+    "troop_target": "aproximadamente 140",
+    "families": 16,
+    "regions": 16,
+    "named_characters": 32,
+    "scenarios": 12,
+    "maps": 12,
+    "campaign_acts": 3
+  },
+  "playability": {
+    "all_character_classes_selectable": true,
+    "all_troop_classes_selectable": true,
+    "enemy_ai": true,
+    "campaign_interface": true,
+    "codex_interface": true,
+    "offline": true
+  },
+  "validation": {
+    "automated_tests": 37,
+    "all_scenarios_simulated_to_terminal_state": true,
+    "http_interface_checked": true,
+    "javascript_syntax_checked": true
+  }
+}
